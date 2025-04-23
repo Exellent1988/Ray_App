@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:tag="layout/button_with_start_drawable_0" android:background="@drawable/home_filled_button" android:padding="@dimen/_8sdp" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/HomeButtonContainer"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatImageView android:tag="binding_1" android:tint="@color/white" android:layout_marginStart="@dimen/_16sdp" app:drawableTint="@color/white" style="@style/Button.Icon" />
+    <TextView android:tag="binding_2" android:layout_width="@dimen/_0dp" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/StartDrawableButton" />
+</LinearLayout>

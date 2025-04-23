@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:id="@id/my_garage_moto_item_card" android:tag="layout/my_garage_bike_list_item_0" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="12.0dip" app:cardBackgroundColor="@android:color/transparent" app:cardCornerRadius="26.0dip" app:cardElevation="0.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schema.android.com/tools">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="4.0">
+            <View android:layout_width="0.0dip" android:layout_height="@dimen/_1sdp" android:layout_weight="1.0" />
+            <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="end" android:tag="binding_1" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="3.0" tools:src="@drawable/test_vehicle" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:tag="binding_2" android:background="@drawable/my_garage_card_background" android:paddingTop="18.0dip" android:paddingBottom="18.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="18.0dip">
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="32.0sp" android:textColor="@color/color_blue_marine" android:tag="binding_3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="@font/rawline_800" tools:text="RAY 7.7" />
+                <TextView android:textSize="14.0sp" android:textColor="@color/color_blue_marine" android:tag="binding_4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/my_garage_license_plate" android:fontFamily="@font/rawline_700" />
+                <TextView android:textSize="14.0sp" android:textColor="@color/white" android:tag="binding_5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="@font/rawline_500" tools:text="FMF - 2346" />
+                <TextView android:textSize="14.0sp" android:textColor="@color/color_blue_marine" android:tag="binding_6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/my_garage_last_use" android:fontFamily="@font/rawline_700" />
+                <TextView android:textSize="14.0sp" android:textColor="@color/white" android:tag="binding_7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="@font/rawline_500" tools:text="28-08-2020\n15:08" />
+                <androidx.appcompat.widget.AppCompatImageView android:id="@id/btnCloseConnection" android:tag="binding_8" android:padding="@dimen/_8sdp" android:layout_width="@dimen/_40sdp" android:layout_height="@dimen/_40sdp" android:layout_marginTop="@dimen/_8sdp" android:src="@drawable/ic_vehicle_connection" tools:visibility="invisible" />
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+</androidx.cardview.widget.CardView>

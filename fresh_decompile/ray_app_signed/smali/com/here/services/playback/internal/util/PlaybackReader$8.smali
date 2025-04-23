@@ -1,0 +1,55 @@
+.class public Lcom/here/services/playback/internal/util/PlaybackReader$8;
+.super Ljava/lang/Object;
+.source ""
+
+# interfaces
+.implements Ljava/lang/Runnable;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lcom/here/services/playback/internal/util/PlaybackReader;->addCellListener(Lcom/here/odnp/cell/ICellManager$ICellListener;)V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x1
+    name = null
+.end annotation
+
+
+# instance fields
+.field public final synthetic this$0:Lcom/here/services/playback/internal/util/PlaybackReader;
+
+.field public final synthetic val$listener:Lcom/here/odnp/cell/ICellManager$ICellListener;
+
+
+# direct methods
+.method public constructor <init>(Lcom/here/services/playback/internal/util/PlaybackReader;Lcom/here/odnp/cell/ICellManager$ICellListener;)V
+    .locals 0
+
+    iput-object p1, p0, Lcom/here/services/playback/internal/util/PlaybackReader$8;->this$0:Lcom/here/services/playback/internal/util/PlaybackReader;
+
+    iput-object p2, p0, Lcom/here/services/playback/internal/util/PlaybackReader$8;->val$listener:Lcom/here/odnp/cell/ICellManager$ICellListener;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public run()V
+    .locals 2
+
+    iget-object v0, p0, Lcom/here/services/playback/internal/util/PlaybackReader$8;->this$0:Lcom/here/services/playback/internal/util/PlaybackReader;
+
+    invoke-static {v0}, Lcom/here/services/playback/internal/util/PlaybackReader;->access$700(Lcom/here/services/playback/internal/util/PlaybackReader;)Ljava/util/Set;
+
+    move-result-object v0
+
+    iget-object v1, p0, Lcom/here/services/playback/internal/util/PlaybackReader$8;->val$listener:Lcom/here/odnp/cell/ICellManager$ICellListener;
+
+    invoke-interface {v0, v1}, Ljava/util/Set;->add(Ljava/lang/Object;)Z
+
+    return-void
+.end method

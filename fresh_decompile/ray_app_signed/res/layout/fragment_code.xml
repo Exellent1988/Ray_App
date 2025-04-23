@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:tag="layout/fragment_code_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:bind="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.textfield.TextInputLayout android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_screen_default" android:layout_marginRight="@dimen/margin_screen_default" android:hint="@string/add_moto_flow_input_hint" android:layout_marginHorizontal="@dimen/margin_screen_default" style="@style/DefaultEditLayout">
+        <EditText android:tag="binding_1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:inputType="text" style="@style/DefaultEditText" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <include android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/toolbar_margin_top" layout="@layout/fragment_header_toolbar" />
+    <View android:tag="binding_2" android:background="@color/black40" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ProgressBar android:layout_gravity="center" android:tag="binding_3" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</FrameLayout>

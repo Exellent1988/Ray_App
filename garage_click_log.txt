@@ -1,0 +1,917 @@
+--------- beginning of system
+04-23 23:24:52.358   610  1646 W ActivityTaskManager: callingPackage for (uid=2000, pid=7352) has no WPC
+--------- beginning of main
+04-23 23:24:52.372   610  1646 V GrammaticalInflectionUtils: AttributionSource: android.content.AttributionSource@2481b43 does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+04-23 23:24:52.374   610  1646 W OptProp : Cannot read opt property android.window.PROPERTY_COMPAT_ALLOW_USER_ASPECT_RATIO_OVERRIDE
+04-23 23:24:52.374   610  1646 W OptProp : Cannot read opt property android.window.PROPERTY_COMPAT_ALLOW_USER_ASPECT_RATIO_FULLSCREEN_OVERRIDE
+04-23 23:24:52.375   610  1646 W OptProp : Cannot read opt property android.window.PROPERTY_COMPAT_ALLOW_RESIZEABLE_ACTIVITY_OVERRIDES
+04-23 23:24:52.375   610  1646 W OptProp : Cannot read opt property android.window.PROPERTY_COMPAT_ALLOW_MIN_ASPECT_RATIO_OVERRIDE
+04-23 23:24:52.389   610  1646 W OptProp : Cannot read opt property android.window.PROPERTY_COMPAT_ALLOW_ORIENTATION_OVERRIDE
+04-23 23:24:52.390   481  1030 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+04-23 23:24:52.429   836   987 W HWUI    : Image decoding logging dropped!
+04-23 23:24:52.436   836   909 V WindowManagerShell: Transition requested (#32): android.os.BinderProxy@6c6f3f3 TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=100 effectiveUid=10242 displayId=0 isRunning=true baseIntent=Intent { flg=0x10000000 cmp=eco.ray.app/.base.ui.MainActivity } baseActivity=ComponentInfo{eco.ray.app/eco.ray.app.base.ui.MainActivity} topActivity=ComponentInfo{eco.ray.app/eco.ray.app.base.ui.MainActivity} origActivity=null realActivity=ComponentInfo{eco.ray.app/eco.ray.app.base.ui.MainActivity} numActivities=1 lastActiveTime=964000 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{android.window.IWindowContainerToken$Stub$Proxy@1fc18b0} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=Rect(0, 0 - 0, 0) topActivityInfo=ActivityInfo{ffc5329 eco.ray.app.base.ui.MainActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=false isVisible=false isVisibleRequested=false isTopActivityNoDisplay=false isSleeping=false locusId=null displayAreaFeatureId=1 isTopActivityTransparent=false isActivityStackTransparent=false lastNonFullscreenBounds=Rect(284, 660 - 796, 1740) capturedLink=null capturedLinkTimestamp=0 requestedVisibleTypes=-9 topActivityRequestOpenInBrowserEducationTimestamp=0 appCompatTaskInfo=AppCompatTaskInfo { topActivityInSizeCompat=false eligibleForLetterboxEducation= false isLetterboxEducationEnabled= true isLetterboxDoubleTapEnabled= false eligibleForUserAspectRatioButton= false topActivityBoundsLetterboxed= false isFromLetterboxDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=-1 topActivityLetterboxHeight=-1 topActivityAppBounds=Rect(0, 0 - 1080, 2337) isUserFullscreenOverrideEnabled=false isSystemFullscreenOverrideEnabled=false hasMinAspectRatioOverride=false topActivityLetterboxBounds=null cameraCompatTaskInfo=CameraCompatTaskInfo { freeformCameraCompatMode=inactive}} topActivityMainWindowFrame=null}, pipChange = null, remoteTransition = null, displayChange = null, flags = 0, debugId = 32 }
+04-23 23:24:52.436   836   909 D ShellSplitScreen: logExit: no-op, mLoggerSessionId is null
+04-23 23:24:52.437   610  1646 I ActivityTaskManager: START u0 {flg=0x10000000 xflg=0x5 cmp=eco.ray.app/.base.ui.MainActivity} with LAUNCH_MULTIPLE from uid 2000 (BAL_ALLOW_PERMISSION) result code=0
+04-23 23:24:52.439   970   970 W SplitSelectStateCtor: Missing session instanceIds
+04-23 23:24:52.440   970   970 D StatsLog: LAUNCHER_SPLIT_SELECTION_EXIT_INTERRUPTED
+04-23 23:24:52.440   836   909 D WindowManagerShell: setLauncherKeepClearAreaHeight: visible=false, height=527
+04-23 23:24:52.446   481   481 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+04-23 23:24:52.454   610   923 D CoreBackPreview: Window{359e69a u0 Splash Screen eco.ray.app}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@41f4ac1, mPriority=0, mIsAnimationCallback=false, mOverrideBehavior=0}
+04-23 23:24:52.457   610   633 V GrammaticalInflectionUtils: AttributionSource: android.content.AttributionSource@2481b43 does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+04-23 23:24:52.488   610   633 D CompatChangeReporter: Compat change id reported: 135754954; UID 10242; state: ENABLED
+04-23 23:24:52.488   610   633 W ActivityManager: Slow operation: 51ms so far, now at startProcess: done starting proc!
+04-23 23:24:52.493   610   633 W IPCThreadState: Sending oneway calls to frozen process.
+04-23 23:24:52.495   610   633 W IPCThreadState: Sending oneway calls to frozen process.
+04-23 23:24:52.495   610   633 W IPCThreadState: Sending oneway calls to frozen process.
+04-23 23:24:52.495   610   633 W IPCThreadState: Sending oneway calls to frozen process.
+04-23 23:24:52.495   610   633 W IPCThreadState: Sending oneway calls to frozen process.
+04-23 23:24:52.495   610   633 W IPCThreadState: Sending oneway calls to frozen process.
+04-23 23:24:52.495   610   633 W IPCThreadState: Sending oneway calls to frozen process.
+04-23 23:24:52.495   610   633 W IPCThreadState: Sending oneway calls to frozen process.
+04-23 23:24:52.495   610   633 W IPCThreadState: Sending oneway calls to frozen process.
+04-23 23:24:52.495   610   633 W IPCThreadState: Sending oneway calls to frozen process.
+04-23 23:24:52.495   610   633 W IPCThreadState: Sending oneway calls to frozen process.
+04-23 23:24:52.495   610   633 W IPCThreadState: Sending oneway calls to frozen process.
+04-23 23:24:52.495   610   633 W IPCThreadState: Sending oneway calls to frozen process.
+04-23 23:24:52.495   610   633 W IPCThreadState: Sending oneway calls to frozen process.
+04-23 23:24:52.495   610   633 W IPCThreadState: Sending oneway calls to frozen process.
+04-23 23:24:52.495   610   633 W IPCThreadState: Sending oneway calls to frozen process.
+04-23 23:24:52.495   610   633 W IPCThreadState: Sending oneway calls to frozen process.
+04-23 23:24:52.495   610   633 W IPCThreadState: Sending oneway calls to frozen process.
+04-23 23:24:52.495   610   633 W IPCThreadState: Sending oneway calls to frozen process.
+04-23 23:24:52.495   610   633 W IPCThreadState: Sending oneway calls to frozen process.
+04-23 23:24:52.495   610   633 W IPCThreadState: Sending oneway calls to frozen process.
+04-23 23:24:52.495   610   633 W IPCThreadState: Sending oneway calls to frozen process.
+04-23 23:24:52.495   610   633 W IPCThreadState: Sending oneway calls to frozen process.
+04-23 23:24:52.495   610   633 W IPCThreadState: Sending oneway calls to frozen process.
+04-23 23:24:52.495   610   633 W IPCThreadState: Sending oneway calls to frozen process.
+04-23 23:24:52.495   610   633 W IPCThreadState: Sending oneway calls to frozen process.
+04-23 23:24:52.495   610   633 W IPCThreadState: Sending oneway calls to frozen process.
+04-23 23:24:52.495   610   633 W IPCThreadState: Sending oneway calls to frozen process.
+04-23 23:24:52.495   610   633 W IPCThreadState: Sending oneway calls to frozen process.
+04-23 23:24:52.495   610   633 W IPCThreadState: Sending oneway calls to frozen process.
+04-23 23:24:52.495   610   633 W IPCThreadState: Sending oneway calls to frozen process.
+04-23 23:24:52.495   610   633 W IPCThreadState: Sending oneway calls to frozen process.
+04-23 23:24:52.495   610   633 W IPCThreadState: Sending oneway calls to frozen process.
+04-23 23:24:52.495   610   633 W IPCThreadState: Sending oneway calls to frozen process.
+04-23 23:24:52.495   610   633 W IPCThreadState: Sending oneway calls to frozen process.
+04-23 23:24:52.495   610   633 W IPCThreadState: Sending oneway calls to frozen process.
+04-23 23:24:52.495   610   633 W IPCThreadState: Sending oneway calls to frozen process.
+04-23 23:24:52.495   610   633 W IPCThreadState: Sending oneway calls to frozen process.
+04-23 23:24:52.495   610   633 W IPCThreadState: Sending oneway calls to frozen process.
+04-23 23:24:52.495   610   633 W IPCThreadState: Sending oneway calls to frozen process.
+04-23 23:24:52.495   610   633 W IPCThreadState: Sending oneway calls to frozen process.
+04-23 23:24:52.495   610   633 W IPCThreadState: Sending oneway calls to frozen process.
+04-23 23:24:52.495   610   633 W IPCThreadState: Sending oneway calls to frozen process.
+04-23 23:24:52.495   610   633 W IPCThreadState: Sending oneway calls to frozen process.
+04-23 23:24:52.495   610   633 W IPCThreadState: Sending oneway calls to frozen process.
+04-23 23:24:52.495   610   633 W IPCThreadState: Sending oneway calls to frozen process.
+04-23 23:24:52.499   610   640 D CompatChangeReporter: Compat change id reported: 143937733; UID 10242; state: ENABLED
+04-23 23:24:52.502   610   793 D BackgroundInstallControlService: Package event received: 0
+04-23 23:24:52.520   409   409 D Zygote  : Forked child process 7362
+04-23 23:24:52.521   610   640 W ActivityManager: Slow operation: 63ms so far, now at startProcess: returned from zygote!
+04-23 23:24:52.535   610   640 W ActivityManager: Slow operation: 77ms so far, now at startProcess: done updating battery stats
+04-23 23:24:52.535   610   640 W ActivityManager: Slow operation: 77ms so far, now at startProcess: building log message
+04-23 23:24:52.535   610   640 I ActivityManager: Start proc 7362:eco.ray.app/u0a242 for next-top-activity {eco.ray.app/eco.ray.app.base.ui.MainActivity}
+04-23 23:24:52.535   610   640 W ActivityManager: Slow operation: 77ms so far, now at startProcess: starting to update pids map
+04-23 23:24:52.535   836   846 V WindowManagerShell: onTransitionReady(transaction=2619930051930)
+04-23 23:24:52.535   836   909 V WindowManagerShell: onTransitionReady (#32) android.os.BinderProxy@6c6f3f3: {id=32 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[
+04-23 23:24:52.535   836   909 V WindowManagerShell:         {m=OPEN f=NONE leash=Surface(name=Task=100)/@0x4e80647 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) epz=Point(1080, 2400) d=0 taskParent=-1},
+04-23 23:24:52.535   836   909 V WindowManagerShell:         {m=TO_BACK f=SHOW_WALLPAPER leash=Surface(name=Task=1)/@0xa9e7e74 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) epz=Point(1080, 2400) d=0 taskParent=-1},
+04-23 23:24:52.535   836   909 V WindowManagerShell:         {m=TO_BACK f=IS_WALLPAPER leash=Surface(name=WallpaperWindowToken{5cb8624 showWhenLocked=false})/@0x1bb5f9d sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) epz=Point(1080, 2400) d=0}
+04-23 23:24:52.535   836   909 V WindowManagerShell:     ]}
+04-23 23:24:52.536   836   909 V WindowManagerShell: Playing animation for (#32) android.os.BinderProxy@6c6f3f3@0
+04-23 23:24:52.536   836   909 V ShellRecents: RecentsTransitionHandler.startAnimation: no controller found
+04-23 23:24:52.536   836   909 V WindowManagerShell: Transition doesn't have explicit remote, search filters for match for {id=32 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{m=OPEN f=NONE leash=Surface(name=Task=100)/@0x4e80647 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) epz=Point(1080, 2400) d=0 taskParent=-1},{m=TO_BACK f=SHOW_WALLPAPER leash=Surface(name=Task=1)/@0xa9e7e74 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) epz=Point(1080, 2400) d=0 taskParent=-1},{m=TO_BACK f=IS_WALLPAPER leash=Surface(name=WallpaperWindowToken{5cb8624 showWhenLocked=false})/@0x1bb5f9d sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) epz=Point(1080, 2400) d=0}]}
+04-23 23:24:52.536   836   909 V WindowManagerShell:  Checking filter Pair{{types=[] flags=0x0] notFlags=0x0 checks=[{atype=undefined independent=true modes=[CLOSE,TO_BACK] flags=IN_TASK_WITH_EMBEDDED_ACTIVITY mustBeTask=false order=ANY topActivity=null launchCookie=null taskFragmentToken=android.os.BinderProxy@846add2 windowingMode=undefined}]} RemoteTransition { remoteTransition = android.window.IRemoteTransition$Stub$Proxy@17a2ea3, appThread = android.app.IApplicationThread$Stub$Proxy@4db5a0, debugName = overlayBackTransition }}
+04-23 23:24:52.536   836   909 V WindowManagerShell:  Checking filter Pair{{types=[] flags=0x0] notFlags=0x0 checks=[{atype=dream independent=true modes=[OPEN,TO_FRONT] flags=NONE mustBeTask=false order=ANY topActivity=null launchCookie=null windowingMode=undefined},{atype=home independent=true modes=[CLOSE,TO_BACK] flags=NONE mustBeTask=false order=ANY topActivity=null launchCookie=null windowingMode=undefined}]} RemoteTransition { remoteTransition = android.window.IRemoteTransition$Stub$Proxy@82d4559, appThread = android.app.IApplicationThread$Stub$Proxy@23dd51e, debugName = LauncherToDream }}
+04-23 23:24:52.536   836   909 V WindowManagerShell:  Checking filter Pair{{types=[] flags=0x0] notFlags=0x100 checks=[{atype=home independent=true modes=[OPEN,TO_FRONT] flags=NONE mustBeTask=false order=TOP topActivity=ComponentInfo{com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity} launchCookie=null windowingMode=undefined},{atype=standard independent=true modes=[CLOSE,TO_BACK] flags=NONE mustBeTask=false order=ANY topActivity=null launchCookie=null windowingMode=undefined},{NOT atype=undefined independent=true modes=[] flags=NONE mustBeTask=true order=ANY topActivity=null launchCookie=null customAnim=true windowingMode=undefined}]} RemoteTransition { remoteTransition = android.window.IRemoteTransition$Stub$Proxy@e7711ff, appThread = android.app.IApplicationThread$Stub$Proxy@a688bcc, debugName = QuickstepLaunchHome }}
+04-23 23:24:52.536   836   909 V WindowManagerShell:  Delegate animation for (#32) to null
+04-23 23:24:52.536   836   909 V WindowManagerShell: start default transition animation, info = {id=32 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{m=OPEN f=NONE leash=Surface(name=Task=100)/@0x4e80647 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) epz=Point(1080, 2400) d=0 taskParent=-1},{m=TO_BACK f=SHOW_WALLPAPER leash=Surface(name=Task=1)/@0xa9e7e74 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) epz=Point(1080, 2400) d=0 taskParent=-1},{m=TO_BACK f=IS_WALLPAPER leash=Surface(name=WallpaperWindowToken{5cb8624 showWhenLocked=false})/@0x1bb5f9d sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) epz=Point(1080, 2400) d=0}]}
+04-23 23:24:52.536   836   909 V WindowManagerShell: loadAnimation: anim=android.view.animation.AnimationSet@c94bfe3 animAttr=0x13 type=OPEN isEntrance=false
+04-23 23:24:52.536   836   909 V WindowManagerShell: loadAnimation: anim=android.view.animation.AnimationSet@a5f0de0 animAttr=0x12 type=OPEN isEntrance=true
+04-23 23:24:52.536   836   909 V WindowManagerShell:  animated by com.android.wm.shell.transition.DefaultTransitionHandler@d0c39ef
+04-23 23:24:52.539  7362  7362 I eco.ray.app: Late-enabling -Xcheck:jni
+04-23 23:24:52.562   610   630 V WindowManager: Sent Transition (#32) createdAt=04-23 23:24:52.375 via request=TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=100 effectiveUid=10242 displayId=0 isRunning=true baseIntent=Intent { flg=0x10000000 cmp=eco.ray.app/.base.ui.MainActivity } baseActivity=ComponentInfo{eco.ray.app/eco.ray.app.base.ui.MainActivity} topActivity=ComponentInfo{eco.ray.app/eco.ray.app.base.ui.MainActivity} origActivity=null realActivity=ComponentInfo{eco.ray.app/eco.ray.app.base.ui.MainActivity} numActivities=1 lastActiveTime=964000 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{RemoteToken{114d1fd Task{f035f8e #100 type=standard A=10242:eco.ray.app}}} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=Rect(0, 0 - 0, 0) topActivityInfo=ActivityInfo{486aef2 eco.ray.app.base.ui.MainActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=false isVisible=false isVisibleRequested=false isTopActivityNoDisplay=false isSleeping=false locusId=null displayAreaFeatureId=1 isTopActivityTransparent=false isActivityStackTransparent=false lastNonFullscreenBounds=Rect(284, 660 - 796, 1740) capturedLink=null capturedLinkTimestamp=0 requestedVisibleTypes=-9 topActivityRequestOpenInBrowserEducationTimestamp=0 appCompatTaskInfo=AppCompatTaskInfo { topActivityInSizeCompat=false eligibleForLetterboxEducation= false isLetterboxEducationEnabled= true isLetterboxDoubleTapEnabled= false eligibleForUserAspectRatioButton= false topActivityBoundsLetterboxed= false isFromLetterboxDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=-1 topActivityLetterboxHeight=-1 topActivityAppBounds=Rect(0, 0 - 1080, 2337) isUserFullscreenOverrideEnabled=false isSystemFullscreenOverrideEnabled=false hasMinAspectRatioOverride=false topActivityLetterboxBounds=null cameraCompatTaskInfo=CameraCompatTaskInfo { freeformCameraCompatMode=inactive}} topActivityMainWindowFrame=null}, pipChange = null, remoteTransition = null, displayChange = null, flags = 0, debugId = 32 }
+04-23 23:24:52.562   610   630 V WindowManager:     startWCT=WindowContainerTransaction { changes= {} hops= [] errorCallbackToken=null taskFragmentOrganizer=null }
+04-23 23:24:52.562   610   630 V WindowManager:     info={id=32 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[
+04-23 23:24:52.562   610   630 V WindowManager:         {WCT{RemoteToken{114d1fd Task{f035f8e #100 type=standard A=10242:eco.ray.app}}} m=OPEN f=NONE leash=Surface(name=Task=100)/@0x7cbd9a7 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) epz=Point(1080, 2400) d=0 taskParent=-1},
+04-23 23:24:52.562   610   630 V WindowManager:         {WCT{RemoteToken{d94cefd Task{1b25177 #1 type=home}}} m=TO_BACK f=SHOW_WALLPAPER leash=Surface(name=Task=1)/@0x9bb10a8 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) epz=Point(1080, 2400) d=0 taskParent=-1},
+04-23 23:24:52.562   610   630 V WindowManager:         {m=TO_BACK f=IS_WALLPAPER leash=Surface(name=WallpaperWindowToken{5cb8624 showWhenLocked=false})/@0x4f770cb sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) epz=Point(1080, 2400) d=0}
+04-23 23:24:52.562   610   630 V WindowManager:     ]}
+04-23 23:24:52.569  7362  7362 I eco.ray.app: Using CollectorTypeCMC GC.
+04-23 23:24:52.574   483   502 I adbd    : jdwp connection from 7362
+04-23 23:24:52.582   535   535 W IPCThreadState: Sending oneway calls to frozen process.
+04-23 23:24:52.582   535   535 W IPCThreadState: Sending oneway calls to frozen process.
+04-23 23:24:52.587   610   640 I ActivityManager: ProcessObserver broadcast disabled
+04-23 23:24:52.587   610   640 W ActivityManager: Slow operation: 129ms so far, now at startProcess: done updating pids map
+04-23 23:24:52.601  7362  7362 D nativeloader: Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+04-23 23:24:52.608   610   793 D BackgroundInstallControlService: Package event received: 0
+04-23 23:24:52.700  7362  7362 D nativeloader: Configuring clns-9 for other apk /data/app/~~mzTtaKXh3ZsBe2FAxP8BzA==/eco.ray.app-Ns9n4o3YHJX44Q2r71w8zg==/base.apk. target_sdk_version=30, uses_libraries=, library_path=/data/app/~~mzTtaKXh3ZsBe2FAxP8BzA==/eco.ray.app-Ns9n4o3YHJX44Q2r71w8zg==/lib/arm64:/data/app/~~mzTtaKXh3ZsBe2FAxP8BzA==/eco.ray.app-Ns9n4o3YHJX44Q2r71w8zg==/base.apk!/lib/arm64-v8a, permitted_path=/data:/mnt/expand:/data/user/0/eco.ray.app
+04-23 23:24:52.704  7362  7362 I eco.ray.app: AssetManager2(0xb4000076073e6198) locale list changing from [] to [en-US]
+04-23 23:24:52.707  7362  7362 V GraphicsEnvironment: Currently set values for:
+04-23 23:24:52.707  7362  7362 V GraphicsEnvironment:   angle_gl_driver_selection_pkgs=[]
+04-23 23:24:52.707  7362  7362 V GraphicsEnvironment:   angle_gl_driver_selection_values=[]
+04-23 23:24:52.707  7362  7362 V GraphicsEnvironment: eco.ray.app is not listed in per-application setting
+04-23 23:24:52.707  7362  7362 V GraphicsEnvironment: ANGLE allowlist from config: 
+04-23 23:24:52.707  7362  7362 V GraphicsEnvironment: eco.ray.app is not listed in ANGLE allowlist or settings, returning default
+04-23 23:24:52.707  7362  7362 V GraphicsEnvironment: Neither updatable production driver nor prerelease driver is supported.
+04-23 23:24:52.725  7362  7362 I eco.ray.app: AssetManager2(0xb4000076073dc238) locale list changing from [] to [en-US]
+04-23 23:24:52.736  7362  7362 I FirebaseApp: Device unlocked: initializing all Firebase APIs for app [DEFAULT]
+04-23 23:24:52.750  7362  7362 I FirebaseInitProvider: FirebaseApp initialization successful
+04-23 23:24:52.755  7362  7362 D BaseApplication: Initializing MockAuthInterceptor for debugging
+04-23 23:24:52.756  7362  7362 D MockAuthHelper: Mocking authentication flow
+04-23 23:24:52.759  7362  7362 D MockAuthHelper: Mock auth intent broadcast sent
+04-23 23:24:52.760  7362  7378 E ashmem  : Pinning is deprecated since Android Q. Please use trim or other methods.
+04-23 23:24:52.767  7362  7362 D MockAuthHelper: Added mock bike data to preferences
+04-23 23:24:52.767  7362  7362 D MockAuthHelper: Created mock bike
+04-23 23:24:52.767  7362  7362 D MockAuthHelper: Authentication bypass completed
+04-23 23:24:52.790   610   923 W OptProp : Cannot read opt property android.window.PROPERTY_COMPAT_ENABLE_FAKE_FOCUS
+04-23 23:24:52.801   610   793 D BackgroundInstallControlService: Package event received: 0
+04-23 23:24:52.802   610   793 D BackgroundInstallControlService: Package event received: 0
+04-23 23:24:52.809  7362  7362 I eco.ray.app: AssetManager2(0xb4000076073e8718) locale list changing from [] to [en-US]
+04-23 23:24:52.811  7362  7385 I DisplayManager: Choreographer implicitly registered for the refresh rate.
+04-23 23:24:52.836  7362  7382 W eco.ray.app: ClassLoaderContext classpath size mismatch. expected=1, found=0 (DLC[];PCL[base.apk*3298461787]{PCL[/system/framework/org.apache.http.legacy.jar*4247870504]#PCL[/system/framework/com.android.media.remotedisplay.jar*487574312]#PCL[/system/framework/com.android.location.provider.jar*1570284764]#PCL[/system_ext/framework/androidx.window.extensions.jar*1030441313]#PCL[/system_ext/framework/androidx.window.sidecar.jar*3860983653]} | DLC[];PCL[])
+04-23 23:24:52.837   836   909 V WindowManagerShell: Transition animation finished (aborted=false), notifying core (#32) android.os.BinderProxy@6c6f3f3@0
+04-23 23:24:52.838   610   630 V WindowManager: Finish Transition (#32): created at 04-23 23:24:52.375 collect-started=0.136ms request-sent=59.718ms started=63.567ms ready=149.373ms sent=152.802ms commit=20.158ms finished=461.936ms
+04-23 23:24:52.838   970   970 D VRI[NexusLauncherActivity]: visibilityChanged oldVisibility=true newVisibility=false
+04-23 23:24:52.840   836   909 V WindowManagerShell: Track 0 became idle
+04-23 23:24:52.841   836   909 V WindowManagerShell: All active transition animations finished
+04-23 23:24:52.843  7362  7362 I eco.ray.app: AssetManager2(0xb4000076073e1058) locale list changing from [] to [en-US]
+04-23 23:24:52.848   970   970 D NexusLauncherModelDelegate: notifySmartspaceEvent: SmartspaceTargetEvent{mSmartspaceTarget=null, mSmartspaceActionId='null', mEventType=7}
+04-23 23:24:52.853  7362  7362 I eco.ray.app: AssetManager2(0xb4000076073e64b8) locale list changing from [] to [en-US]
+04-23 23:24:52.861  7362  7362 I eco.ray.app: AssetManager2(0xb4000076073e1698) locale list changing from [] to [en-US]
+04-23 23:24:52.876  7362  7362 D DesktopModeFlags: Toggle override initialized to: OVERRIDE_UNSET
+04-23 23:24:52.878  7362  7382 I DynamiteModule: Considering local module com.google.android.gms.measurement.dynamite:51 and remote module com.google.android.gms.measurement.dynamite:143
+04-23 23:24:52.878  7362  7382 I DynamiteModule: Selected remote version of com.google.android.gms.measurement.dynamite, version >= 143
+04-23 23:24:52.878  7362  7382 V DynamiteModule: Dynamite loader version >= 2, using loadModule2NoCrashUtils
+04-23 23:24:52.905  7362  7362 W HWUI    : Image decoding logging dropped!
+04-23 23:24:52.923  7362  7362 I eco.ray.app: hiddenapi: Accessing hidden method Landroid/view/View;->computeFitSystemWindows(Landroid/graphics/Rect;Landroid/graphics/Rect;)Z (runtime_flags=0, domain=platform, api=unsupported) from Lu/b/h/w0; (domain=app) using reflection: allowed
+04-23 23:24:52.925  7362  7362 I eco.ray.app: hiddenapi: Accessing hidden method Landroid/view/ViewGroup;->makeOptionalFitsSystemWindows()V (runtime_flags=0, domain=platform, api=unsupported) from Landroidx/appcompat/app/AppCompatDelegateImpl; (domain=app) using reflection: allowed
+04-23 23:24:52.935  7362  7385 I EGL_emulation: Opening libGLESv1_CM_emulation.so
+04-23 23:24:52.935  7362  7385 I EGL_emulation: Opening libGLESv2_emulation.so
+04-23 23:24:52.946  7362  7382 W System  : ClassLoader referenced unknown path: 
+04-23 23:24:52.948  7362  7382 D nativeloader: Configuring clns-10 for other apk . target_sdk_version=36, uses_libraries=, library_path=/data/app/~~KstFn0fO3chFXz4TLs0amA==/com.google.android.gms-K0RUSMieRAxEdOou03cNFw==/lib/arm64:/data/app/~~KstFn0fO3chFXz4TLs0amA==/com.google.android.gms-K0RUSMieRAxEdOou03cNFw==/base.apk!/lib/arm64-v8a, permitted_path=/data:/mnt/expand:/data/user/0/com.google.android.gms
+04-23 23:24:52.952   610   740 W BestClock: java.time.DateTimeException: No network time available
+04-23 23:24:52.952   610   740 W BestClock: java.time.DateTimeException: No network time available
+04-23 23:24:52.952   610   740 W BestClock: java.time.DateTimeException: No network time available
+04-23 23:24:52.952   610   740 W BestClock: java.time.DateTimeException: No network time available
+04-23 23:24:52.952   610   740 W BestClock: java.time.DateTimeException: No network time available
+04-23 23:24:52.955  7362  7385 W HWUI    : Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+04-23 23:24:52.956  7362  7385 W HWUI    : Failed to initialize 101010-2 format, error = EGL_SUCCESS
+04-23 23:24:52.980  7362  7362 W HWUI    : Unknown dataspace 0
+04-23 23:24:52.988  7362  7382 I eco.ray.app: AssetManager2(0xb4000076073e1cd8) locale list changing from [] to [en-US]
+04-23 23:24:52.993   610  1808 D CoreBackPreview: Window{9c7f6b4 u0 eco.ray.app/eco.ray.app.base.ui.MainActivity}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@7308e52, mPriority=0, mIsAnimationCallback=false, mOverrideBehavior=0}
+04-23 23:24:53.006   610  1808 I MediaFocusControl: requestAudioFocus() from uid/pid 10242/7362 AA=USAGE_MEDIA/CONTENT_TYPE_MOVIE clientId=android.media.AudioManager@ac93424 callingPack=eco.ray.app req=1 flags=0x0 sdk=30
+04-23 23:24:53.006   610  1808 I AS.FadeOutManager: unfadeOutUid() uid:10242
+04-23 23:24:53.008  7362  7362 D AudioSystem: onNewServiceWithAdapter: media.audio_flinger service obtained 0xb40000762740acc0
+04-23 23:24:53.008  7362  7362 D AudioSystem: getService: checking for service media.audio_flinger: 0xb40000748747c8c0
+04-23 23:24:53.077  7362  7382 W eco.ray.app: ClassLoaderContext classpath element checksum mismatch. expected=3298461787, found=1109408433 (DLC[];PCL[base.apk*3298461787]{PCL[/system/framework/org.apache.http.legacy.jar*4247870504]#PCL[/system/framework/com.android.media.remotedisplay.jar*487574312]#PCL[/system/framework/com.android.location.provider.jar*1570284764]#PCL[/system_ext/framework/androidx.window.extensions.jar*1030441313]#PCL[/system_ext/framework/androidx.window.sidecar.jar*3860983653]} | DLC[];PCL[/data/app/~~mzTtaKXh3ZsBe2FAxP8BzA==/eco.ray.app-Ns9n4o3YHJX44Q2r71w8zg==/base.apk*1109408433])
+04-23 23:24:53.099  7362  7382 I eco.ray.app: AssetManager2(0xb4000076073e4258) locale list changing from [] to [en-US]
+04-23 23:24:53.101  7362  7382 I eco.ray.app: AssetManager2(0xb4000076073e7db8) locale list changing from [] to [en-US]
+04-23 23:24:53.106   547   547 D NuPlayerDriver: NuPlayerDriver(0xb40000758191e250) created, clientPid(7362)
+04-23 23:24:53.107   189   189 I hwservicemanager: getTransport: Cannot find entry android.hardware.media.omx@1.0::IOmx/default in either framework or device VINTF manifest.
+04-23 23:24:53.107   547   547 D MediaPlayerService: OMX service is not available
+04-23 23:24:53.108   547   547 D SurfaceUtils: connecting to surface 0xb40000760192d3d0, reason setVideoSurfaceTexture
+04-23 23:24:53.108   547  7402 D NuPlayer: onSetVideoSurface(0xb40000760192a6b0, no video decoder)
+04-23 23:24:53.111   547  7403 D GenericSource: FileSource remote
+04-23 23:24:53.117   543  4500 I SampleTable: There are reordered frames present.
+04-23 23:24:53.118   543  4229 D MediaBufferGroup: creating MemoryDealer
+04-23 23:24:53.145   610   630 I ActivityTaskManager: Displayed eco.ray.app/.base.ui.MainActivity for user 0: +785ms
+04-23 23:24:53.152  7362  7362 D MediaPlayerNative: getMetadata
+04-23 23:24:53.156   547  7402 I GenericSource: start
+04-23 23:24:53.160   547  7409 D CCodec  : allocate(c2.android.aac.decoder)
+04-23 23:24:53.160   547  7410 D CCodec  : allocate(c2.goldfish.h264.decoder)
+04-23 23:24:53.161   547  7409 I CCodec  : setting up 'default' as default (vendor) store
+04-23 23:24:53.165   547  7410 I CCodec  : setting up 'default' as default (vendor) store
+04-23 23:24:53.165   422  1529 I GoldfishComponentStore: in init
+04-23 23:24:53.165   422  1529 I GoldfishComponentStore: loading dll of path libcodec2_goldfish_avcdec.so
+04-23 23:24:53.166   422  1529 I GoldfishComponentStore: Create()
+04-23 23:24:53.166   422  1529 I GoldfishComponentStore: created interface
+04-23 23:24:53.166   422  1529 I GoldfishComponentStore: created component
+04-23 23:24:53.168   547  4047 D BufferPoolAccessor2.0: bufferpool2 0xb4000076e1924bf8 : 0(0 size) total buffers - 0(0 size) used buffers - 182/190 (recycle/alloc) - 8/189 (fetch/transfer)
+04-23 23:24:53.168   547  4047 D BufferPoolAccessor2.0: Destruction - bufferpool2 0xb4000076e1924bf8 cached: 0/0M, 0/0% in use; allocs: 190, 96% recycled; transfers: 189, 96% unfetched
+04-23 23:24:53.168   547  7410 I CCodec  : Created component [c2.goldfish.h264.decoder] for [c2.goldfish.h264.decoder]
+04-23 23:24:53.169   547  7410 D CCodecConfig: read media type: video/avc
+04-23 23:24:53.169   547  7410 D ReflectedParamUpdater: extent() != 1 for single value type: algo.buffers.max-count.values
+04-23 23:24:53.170   547  7409 I CCodec  : Created component [c2.android.aac.decoder] for [c2.android.aac.decoder]
+04-23 23:24:53.170   547  7409 D CCodecConfig: read media type: audio/mp4a-latm
+04-23 23:24:53.171   547  7410 D ReflectedParamUpdater: extent() != 1 for single value type: output.subscribed-indices.values
+04-23 23:24:53.171   547  7410 D ReflectedParamUpdater: extent() != 1 for single value type: input.buffers.allocator-ids.values
+04-23 23:24:53.171   547  7410 D ReflectedParamUpdater: extent() != 1 for single value type: output.buffers.allocator-ids.values
+04-23 23:24:53.171   547  7410 D ReflectedParamUpdater: extent() != 1 for single value type: algo.buffers.allocator-ids.values
+04-23 23:24:53.172   547  7410 D ReflectedParamUpdater: extent() != 1 for single value type: output.buffers.pool-ids.values
+04-23 23:24:53.172   547  7410 D ReflectedParamUpdater: extent() != 1 for single value type: algo.buffers.pool-ids.values
+04-23 23:24:53.172   547  7410 D ReflectedParamUpdater: ignored struct field coded.color-format.locations
+04-23 23:24:53.172   547  7410 D CCodecConfig: ignoring local param raw.size (0xd2001800) as it is already supported
+04-23 23:24:53.172   547  7410 D CCodecConfig: ignoring local param default.color (0x5200180b) as it is already supported
+04-23 23:24:53.172   547  7410 D ReflectedParamUpdater: ignored struct field raw.hdr-static-info.mastering
+04-23 23:24:53.174   547  7410 I CCodecConfig: query failed after returning 12 values (BAD_INDEX)
+04-23 23:24:53.174   547  7410 D CCodecConfig: c2 config diff is Dict {
+04-23 23:24:53.174   547  7410 D CCodecConfig:   c2::u32 coded.pl.level = 20496
+04-23 23:24:53.174   547  7410 D CCodecConfig:   c2::u32 coded.pl.profile = 20481
+04-23 23:24:53.174   547  7410 D CCodecConfig:   c2::u32 coded.vui.color.matrix = 0
+04-23 23:24:53.174   547  7410 D CCodecConfig:   c2::u32 coded.vui.color.primaries = 0
+04-23 23:24:53.174   547  7410 D CCodecConfig:   c2::u32 coded.vui.color.range = 2
+04-23 23:24:53.174   547  7410 D CCodecConfig:   c2::u32 coded.vui.color.transfer = 0
+04-23 23:24:53.174   547  7410 D CCodecConfig:   c2::u32 default.color.matrix = 0
+04-23 23:24:53.174   547  7410 D CCodecConfig:   c2::u32 default.color.primaries = 0
+04-23 23:24:53.174   547  7410 D CCodecConfig:   c2::u32 default.color.range = 0
+04-23 23:24:53.174   547  7410 D CCodecConfig:   c2::u32 default.color.transfer = 0
+04-23 23:24:53.174   547  7410 D CCodecConfig:   c2::u32 input.buffers.max-size.value = 6291456
+04-23 23:24:53.174   547  7410 D CCodecConfig:   c2::u32 input.delay.value = 0
+04-23 23:24:53.174   547  7410 D CCodecConfig:   string input.media-type.value = "video/avc"
+04-23 23:24:53.174   547  7410 D CCodecConfig:   c2::u32 output.delay.value = 8
+04-23 23:24:53.174   547  7410 D CCodecConfig:   string output.media-type.value = "video/raw"
+04-23 23:24:53.174   547  7410 D CCodecConfig:   c2::u32 raw.color.matrix = 0
+04-23 23:24:53.174   547  7410 D CCodecConfig:   c2::u32 raw.color.primaries = 0
+04-23 23:24:53.174   547  7410 D CCodecConfig:   c2::u32 raw.color.range = 2
+04-23 23:24:53.174   547  7410 D CCodecConfig:   c2::u32 raw.color.transfer = 0
+04-23 23:24:53.174   547  7410 D CCodecConfig:   c2::u32 raw.max-size.height = 240
+04-23 23:24:53.174   547  7410 D CCodecConfig:   c2::u32 raw.max-size.width = 320
+04-23 23:24:53.174   547  7410 D CCodecConfig:   c2::u32 raw.pixel-format.value = 35
+04-23 23:24:53.174   547  7410 D CCodecConfig:   c2::i32 raw.rotation.flip = 0
+04-23 23:24:53.174   547  7410 D CCodecConfig:   c2::i32 raw.rotation.value = 0
+04-23 23:24:53.174   547  7410 D CCodecConfig:   c2::u32 raw.sar.height = 1
+04-23 23:24:53.174   547  7410 D CCodecConfig:   c2::u32 raw.sar.width = 1
+04-23 23:24:53.174   547  7410 D CCodecConfig:   c2::u32 raw.size.height = 240
+04-23 23:24:53.174   547  7410 D CCodecConfig:   c2::u32 raw.size.width = 320
+04-23 23:24:53.174   547  7410 D CCodecConfig:   c2:
+04-23 23:24:53.174   547  7410 W ColorUtils: expected specified color aspects (2:0:0:0)
+04-23 23:24:53.174   547  7409 D ReflectedParamUpdater: extent() != 1 for single value type: algo.buffers.max-count.values
+04-23 23:24:53.178   547  7409 D ReflectedParamUpdater: extent() != 1 for single value type: output.subscribed-indices.values
+04-23 23:24:53.178   547  7409 D ReflectedParamUpdater: extent() != 1 for single value type: input.buffers.allocator-ids.values
+04-23 23:24:53.178   547  7409 D ReflectedParamUpdater: extent() != 1 for single value type: output.buffers.allocator-ids.values
+04-23 23:24:53.178   547  7409 D ReflectedParamUpdater: extent() != 1 for single value type: algo.buffers.allocator-ids.values
+04-23 23:24:53.178   547  7409 D ReflectedParamUpdater: extent() != 1 for single value type: output.buffers.pool-ids.values
+04-23 23:24:53.178   547  7409 D ReflectedParamUpdater: extent() != 1 for single value type: algo.buffers.pool-ids.values
+04-23 23:24:53.179   547  7406 D SurfaceUtils: disconnecting from surface 0xb40000760192a6c0, reason onConfigure
+04-23 23:24:53.181   547  7409 I CCodecConfig: query failed after returning 21 values (BAD_INDEX)
+04-23 23:24:53.182   547  7409 D CCodecConfig: c2 config diff is Dict {
+04-23 23:24:53.182   547  7409 D CCodecConfig:   c2::u32 coded.aac-packaging.value = 0
+04-23 23:24:53.182   547  7409 D CCodecConfig:   c2::u32 coded.bitrate.value = 64000
+04-23 23:24:53.182   547  7409 D CCodecConfig:   c2::u32 coded.pl.level = 0
+04-23 23:24:53.182   547  7409 D CCodecConfig:   c2::u32 coded.pl.profile = 8192
+04-23 23:24:53.182   547  7409 D CCodecConfig:   c2::i32 coding.drc.album-mode.value = 0
+04-23 23:24:53.182   547  7409 D CCodecConfig:   c2::float coding.drc.attenuation-factor.value = 1
+04-23 23:24:53.182   547  7409 D CCodecConfig:   c2::float coding.drc.boost-factor.value = 1
+04-23 23:24:53.182   547  7409 D CCodecConfig:   c2::i32 coding.drc.compression-mode.value = 3
+04-23 23:24:53.182   547  7409 D CCodecConfig:   c2::i32 coding.drc.effect-type.value = 3
+04-23 23:24:53.182   547  7409 D CCodecConfig:   c2::float coding.drc.encoded-level.value = 0.25
+04-23 23:24:53.182   547  7409 D CCodecConfig:   c2::float coding.drc.reference-level.value = -16
+04-23 23:24:53.182   547  7409 D CCodecConfig:   c2::u32 input.buffers.max-size.value = 8192
+04-23 23:24:53.182   547  7409 D CCodecConfig:   c2::u32 input.delay.value = 0
+04-23 23:24:53.182   547  7409 D CCodecConfig:   string input.media-type.value = "audio/mp4a-latm"
+04-23 23:24:53.182   547  7409 D CCodecConfig:   c2::u32 output.delay.value = 2
+04-23 23:24:53.182   547  7409 D CCodecConfig:   c2::float output.drc.output-loudness.value = 0.25
+04-23 23:24:53.182   547  7409 D CCodecConfig:   c2::u32 output.large-frame.max-size = 0
+04-23 23:24:53.182   547  7409 D CCodecConfig:   c2::u32 output.large-frame.threshold-size = 0
+04-23 23:24:53.182   547  7409 D CCodecConfig:   string output.media-type.value = "audio/raw"
+04-23 23:24:53.182   547  7409 D CCodecConfig:   c2::u32 raw.channel-count.value = 1
+04-23 23:24:53.182   547  7409 D CCodecConfig:   c2::u32 raw.channel-mask.value = 0
+04-23 23:24:53.182   547  7409 D CCodecConfig:   c2::u32 raw.max-channel-count.value = 8
+04-23 23:24:53.182   547  7409 D CCodecConfig:   c2::u32 raw.sample-rate.value = 44100
+04-23 23:24:53.182   547  7409 D CCodecConfig: }
+04-23 23:24:53.183   547  7406 W ServiceManagerCppClient: Failed to get isDeclared for media_quality: Status(-1, EX_SECURITY): 'SELinux denied for service.'
+04-23 23:24:53.183   547  7406 E MediaCodec: Media Quality Service not found.
+04-23 23:24:53.183   547  7407 D SurfaceUtils: connecting to surface 0xb40000760192a6c0, reason connectToSurface
+04-23 23:24:53.183   547  7408 W ServiceManagerCppClient: Failed to get isDeclared for media_quality: Status(-1, EX_SECURITY): 'SELinux denied for service.'
+04-23 23:24:53.183   547  7408 E MediaCodec: Media Quality Service not found.
+04-23 23:24:53.183   547  7409 D CCodec  : [c2.android.aac.decoder] buffers are bound to CCodec for this session
+04-23 23:24:53.184   547  7409 D CCodecConfig: no c2 equivalents for durationUs
+04-23 23:24:53.184   547  7409 D CCodecConfig: no c2 equivalents for track-id
+04-23 23:24:53.184   547  7409 D CCodecConfig: no c2 equivalents for language
+04-23 23:24:53.184   547  7409 D CCodecConfig: no c2 equivalents for encoder-delay
+04-23 23:24:53.184   547  7409 D CCodecConfig: no c2 equivalents for encoder-padding
+04-23 23:24:53.184   547  7409 D CCodecConfig: no c2 equivalents for flags
+04-23 23:24:53.184   552   603 E Codec2-ComponentInterface: We have a failed config
+04-23 23:24:53.184   547  7407 I MediaCodec: [c2.goldfish.h264.decoder] setting surface generation to 560137
+04-23 23:24:53.184   547  7407 D SurfaceUtils: disconnecting from surface 0xb40000760192a6c0, reason connectToSurface(reconnect)
+04-23 23:24:53.185   547  7409 D CCodecConfig: config failed => CORRUPTED
+04-23 23:24:53.185   547  7407 D SurfaceUtils: connecting to surface 0xb40000760192a6b0, reason connectToSurface(reconnect-with-listener)
+04-23 23:24:53.185   547  7409 D CCodecConfig: c2 config diff is   c2::u32 coded.bitrate.value = 253375
+04-23 23:24:53.185   547  7409 D CCodecConfig:   c2::u32 raw.channel-count.value = 2
+04-23 23:24:53.185   547  7409 D CCodecConfig:   c2::u32 raw.sample-rate.value = 48000
+04-23 23:24:53.186   547  7409 W Codec2Client: query -- param skipped: index = 1107298332.
+04-23 23:24:53.186   547  7409 D CCodec  : client requested max input size 696, which is smaller than what component recommended (8192); overriding with component recommendation.
+04-23 23:24:53.187   547  7409 W CCodec  : This behavior is subject to change. It is recommended that app developers double check whether the requested max input size is in reasonable range.
+04-23 23:24:53.187   547  7409 D CCodec  : encoding statistics level = 0
+04-23 23:24:53.187   547  7409 D CCodec  : setup formats input: AMessage(what = 0x00000000) = {
+04-23 23:24:53.187   547  7409 D CCodec  :   int32_t aac-drc-album-mode = 0
+04-23 23:24:53.187   547  7409 D CCodec  :   int32_t aac-drc-boost-level = 127
+04-23 23:24:53.187   547  7409 D CCodec  :   int32_t aac-drc-cut-level = 127
+04-23 23:24:53.187   547  7409 D CCodec  :   int32_t aac-drc-effect-type = 3
+04-23 23:24:53.187   547  7409 D CCodec  :   int32_t aac-encoded-target-level = -1
+04-23 23:24:53.187   547  7409 D CCodec  :   int32_t aac-max-output-channel_count = 8
+04-23 23:24:53.187   547  7409 D CCodec  :   int32_t aac-target-ref-level = 64
+04-23 23:24:53.187   547  7409 D CCodec  :   int32_t bitrate = 253375
+04-23 23:24:53.187   547  7409 D CCodec  :   int32_t channel-count = 2
+04-23 23:24:53.187   547  7409 D CCodec  :   int32_t channel-mask = 0
+04-23 23:24:53.187   547  7409 D CCodec  :   int32_t level = 0
+04-23 23:24:53.187   547  7409 D CCodec  :   int32_t max-input-size = 8192
+04-23 23:24:53.187   547  7409 D CCodec  :   int32_t max-output-channel-count = 8
+04-23 23:24:53.187   547  7409 D CCodec  :   string mime = "audio/mp4a-latm"
+04-23 23:24:53.187   547  7409 D CCodec  :   int32_t profile = 2
+04-23 23:24:53.187   547  7409 D CCodec  :   int32_t sample-rate = 48000
+04-23 23:24:53.187   547  7409 D CCodec  : }
+04-23 23:24:53.187   547  7409 D CCodec  : setup formats output: AMessage(what = 0x00000000) = {
+04-23 23:24:53.187   547  7409 D CCodec  :   int32_t aac-drc-album-mode = 0
+04-23 23:24:53.187   547  7409 D CCodec  :   int32_t aac-drc-boost-level = 127
+04-23 23:24:53.187   547  7409 D CCodec  :   int32_t aac-drc-cut-level = 127
+04-23 23:24:53.187   547  7409 D CCodec  :   int32_t aac-drc-effect-type = 3
+04-23 23:24:53.187   547  7409 D CCodec  :   int32_t aac-drc-output-loudness = -1
+04-23 23:24:53.187   547  7409 D CCodec  :   int32_t aac-encoded-target-level = -1
+04-23 23:24:53.187   547  7409 D CCodec  :   int32_t aac-max-output-channel_count = 8
+04-23 23:24:53.187   547  7409 D CCodec  :   int32_t aac-target-ref-level = 64
+04-23 23:24:53.187   547  7409 D CCodec  :   int32_t buffer-batch-max-output-size = 0
+04-23 23:24:53.187   547  7409 D CCodec  :   int32_t buffer-batch-threshold-output-size = 0
+04-23 23:24:53.187   547  7409 D CCodec  :   int32_t channel-count = 2
+04-23 23:24:53.187   547  7409 D CCodec  :   int32_t channel-mask = 0
+04-23 23:24:53.187   547  7409 D CCodec  :   int32_t max-output-channel-count = 8
+04-23 23:24:53.187   547  7409 D CCodec  :   string mime = "audio/raw"
+04-23 23:24:53.187   547  7409 D CCodec  :   int32_t sample-rate = 48000
+04-23 23:24:53.187   547  7409 D CCodec  :   int32_t encoder-delay = 0
+04-23 23:24:53.187   547  7409 D CCodec  :   int32_t encoder-padding = 0
+04-23 23:24:53.187   547  7409 D CCodec  :   int32_t android._config-pcm-encoding = 2
+04-23 23:24:53.187   547  7409 D CCodec  : }
+04-23 23:24:53.187   547  7409 I CCodecConfig: query failed after returning 21 values (BAD_INDEX)
+04-23 23:24:53.187   547  7409 E mediaserver: Failed to query component interface for required system resources: 6
+04-23 23:24:53.188   547  7410 I CCodecBufferChannel: Using latch times for frame rendered signals - present fences not supported
+04-23 23:24:53.188   547  7410 D CCodec  : [c2.goldfish.h264.decoder] buffers are bound to CCodec for this session
+04-23 23:24:53.188   547  7410 D CCodecConfig: no c2 equivalents for durationUs
+04-23 23:24:53.188   547  7410 D CCodecConfig: no c2 equivalents for frame-count
+04-23 23:24:53.188   547  7410 D CCodecConfig: no c2 equivalents for track-id
+04-23 23:24:53.188   547  7410 D CCodecConfig: no c2 equivalents for language
+04-23 23:24:53.188   547  7410 D CCodecConfig: no c2 equivalents for display-width
+04-23 23:24:53.188   547  7410 D CCodecConfig: no c2 equivalents for display-height
+04-23 23:24:53.188   547  7410 D CCodecConfig: no c2 equivalents for csd-1
+04-23 23:24:53.188   547  7410 D CCodecConfig: no c2 equivalents for native-window
+04-23 23:24:53.188   547  7410 D CCodecConfig: no c2 equivalents for native-window-generation
+04-23 23:24:53.188   547  7410 D CCodecConfig: no c2 equivalents for flags
+04-23 23:24:53.188   547  7410 D CCodecConfig: config failed => CORRUPTED
+04-23 23:24:53.189   547  7410 D CCodecConfig: c2 config diff is   c2::u32 coded.pl.level = 20491
+04-23 23:24:53.189   547  7410 D CCodecConfig:   c2::u32 coded.pl.profile = 20484
+04-23 23:24:53.189   547  7410 D CCodecConfig:   c2::u32 raw.size.height = 1792
+04-23 23:24:53.189   547  7410 D CCodecConfig:   c2::u32 raw.size.width = 828
+04-23 23:24:53.189   547  7410 W Codec2Client: query -- param skipped: index = 1107298332.
+04-23 23:24:53.189   547  7410 D CCodec  : client requested max input size 40327, which is smaller than what component recommended (6291456); overriding with component recommendation.
+04-23 23:24:53.189   547  7410 W CCodec  : This behavior is subject to change. It is recommended that app developers double check whether the requested max input size is in reasonable range.
+04-23 23:24:53.189   547  7410 D CCodec  : encoding statistics level = 0
+04-23 23:24:53.189   547  7410 D CCodec  : setup formats input: AMessage(what = 0x00000000) = {
+04-23 23:24:53.189   547  7410 D CCodec  :   int32_t height = 1792
+04-23 23:24:53.189   547  7410 D CCodec  :   int32_t level = 2048
+04-23 23:24:53.189   547  7410 D CCodec  :   int32_t max-input-size = 6291456
+04-23 23:24:53.189   547  7410 D CCodec  :   string mime = "video/avc"
+04-23 23:24:53.189   547  7410 D CCodec  :   int32_t profile = 8
+04-23 23:24:53.189   547  7410 D CCodec  :   int32_t width = 828
+04-23 23:24:53.189   547  7410 D CCodec  :   Rect crop(0, 0, 827, 1791)
+04-23 23:24:53.189   547  7410 D CCodec  : }
+04-23 23:24:53.189   547  7410 D CCodec  : setup formats output: AMessage(what = 0x00000000) = {
+04-23 23:24:53.189   547  7410 D CCodec  :   int32_t android._color-format = 2135033992
+04-23 23:24:53.189   547  7410 D CCodec  :   int32_t android._video-scaling = 1
+04-23 23:24:53.189   547  7410 D CCodec  :   int32_t rotation-degrees = 0
+04-23 23:24:53.189   547  7410 D CCodec  :   int32_t color-standard = 1
+04-23 23:24:53.189   547  7410 D CCodec  :   int32_t color-range = 2
+04-23 23:24:53.189   547  7410 D CCodec  :   int32_t color-transfer = 3
+04-23 23:24:53.189   547  7410 D CCodec  :   int32_t sar-height = 1
+04-23 23:24:53.189   547  7410 D CCodec  :   int32_t sar-width = 1
+04-23 23:24:53.189   547  7410 D CCodec  :   Rect crop(0, 0, 827, 1791)
+04-23 23:24:53.189   547  7410 D CCodec  :   int32_t width = 828
+04-23 23:24:53.189   547  7410 D CCodec  :   int32_t height = 1792
+04-23 23:24:53.189   547  7410 D CCodec  :   int32_t max-height = 240
+04-23 23:24:53.189   547  7410 D CCodec  :   int32_t max-width = 320
+04-23 23:24:53.189   547  7410 D CCodec  :   string mime = "video/raw"
+04-23 23:24:53.189   547  7410 D CCodec  :   int32_t android._dataspace = 260
+04-23 23:24:53.189   547  7410 D CCodec  :   int32_t color-format = 2130708361
+04-23 23:24:53.189   547  7410 D CCodec  : }
+04-23 23:24:53.189   547  7410 I CCodecConfig: query failed after returning 12 values (BAD_INDEX)
+04-23 23:24:53.189   547  7410 D CCodecConfig: c2 config diff is   c2::u32 raw.max-size.height = 1792
+04-23 23:24:53.189   547  7410 D CCodecConfig:   c2::u32 raw.max-size.width = 828
+04-23 23:24:53.189   547  7410 E mediaserver: Failed to query component interface for required system resources: 6
+04-23 23:24:53.190   547  7407 I MediaCodec: MediaCodec will operate in async mode
+04-23 23:24:53.190   547  7406 D MediaCodec: keep callback message for reclaim
+04-23 23:24:53.190   422  7412 D C2GoldfishAvcDec: calling onInit
+04-23 23:24:53.190   547  7410 W Codec2Client: query -- param skipped: index = 1342179345.
+04-23 23:24:53.190   547  7410 W Codec2Client: query -- param skipped: index = 2415921170.
+04-23 23:24:53.190   547  7410 W Codec2Client: query -- param skipped: index = 1610614798.
+04-23 23:24:53.190   547  7410 W Codec2Client: query -- param skipped: index = 2684356609.
+04-23 23:24:53.191   552  7273 D BufferPoolAccessor2.0: bufferpool2 0xb4000077ebd8be18 : 0(0 size) total buffers - 0(0 size) used buffers - 182/187 (recycle/alloc) - 5/187 (fetch/transfer)
+04-23 23:24:53.191   552  7273 D BufferPoolAccessor2.0: Destruction - bufferpool2 0xb4000077ebd8be18 cached: 0/0M, 0/0% in use; allocs: 187, 97% recycled; transfers: 187, 97% unfetched
+04-23 23:24:53.191   547  7410 D CCodecBufferChannel: [c2.goldfish.h264.decoder#867] Created input block pool with allocatorID 16 => poolID 33 - OK (0)
+04-23 23:24:53.192   547  7409 I MediaCodec: MediaCodec will operate in async mode
+04-23 23:24:53.192   547  7408 D MediaCodec: keep callback message for reclaim
+04-23 23:24:53.192   547  7409 W Codec2Client: query -- param skipped: index = 1342179345.
+04-23 23:24:53.192   547  7409 W Codec2Client: query -- param skipped: index = 2415921170.
+04-23 23:24:53.192   547  7409 W Codec2Client: query -- param skipped: index = 1610614798.
+04-23 23:24:53.192   547  7409 D CCodecBufferChannel: [c2.android.aac.decoder#173] Created input block pool with allocatorID 16 => poolID 34 - OK (0)
+04-23 23:24:53.192   547  7409 I CCodecBufferChannel: [c2.android.aac.decoder#173] Created output block pool with allocatorID 16 => poolID 52 - OK
+04-23 23:24:53.192   547  7409 D CCodecBufferChannel: [c2.android.aac.decoder#173] Configured output block pool ids 52 => OK
+04-23 23:24:53.192   552   603 E Codec2-ComponentInterface: We have a failed config
+04-23 23:24:53.194   552  7411 D SimpleC2Component: Using output block pool with poolID 52 => got 52 - 0
+04-23 23:24:53.194   547  7410 D CCodecBufferChannel: [c2.goldfish.h264.decoder#867] Query output surface allocator returned 0 params => BAD_INDEX (6)
+04-23 23:24:53.194   547  7410 I CCodecBufferChannel: [c2.goldfish.h264.decoder#867] Created output block pool with allocatorID 18 => poolID 25 - OK
+04-23 23:24:53.194   547  7410 D CCodecBufferChannel: [c2.goldfish.h264.decoder#867] Configured output block pool ids 25 => OK
+04-23 23:24:53.195   552  7411 I C2SoftAacDec: Reconfiguring decoder: 0->48000 Hz, 0->2 channels
+04-23 23:24:53.195   547  7410 D Codec2-OutputBufferQueue: remote graphic buffer migration 0/0
+04-23 23:24:53.199   547  7410 D Codec2Client: setOutputSurface -- failed to set consumer usage (6/BAD_INDEX)
+04-23 23:24:53.199   547  7410 D Codec2Client: setOutputSurface -- generation=560137 consumer usage=0x900
+04-23 23:24:53.200   422  1529 D C2BqBuffer: local generation change 560137 , bqId: 31619549233153 migrated buffers # 0
+04-23 23:24:53.201   547  7410 D Codec2Client: Surface configure completed
+04-23 23:24:53.205   547  7407 W ResourceManagerServiceUtils: Ignoring request to add new resource entry with value <= 0
+04-23 23:24:53.206   547  7407 D CCodecConfig: no recognized params in: Dict {
+04-23 23:24:53.206   547  7407 D CCodecConfig:   c2::float algo.rate.value = 25
+04-23 23:24:53.206   547  7407 D CCodecConfig:   c2::float ctrl.operating-rate.value = 25
+04-23 23:24:53.206   547  7407 D CCodecConfig: }
+04-23 23:24:53.209   422  7412 D SimpleC2Component: Using output block pool with poolID 25 => got 25 - 0
+04-23 23:24:53.209   547  4028 D BufferPoolAccessor2.0: bufferpool2 0xb4000076e192cb28 : 0(0 size) total buffers - 0(0 size) used buffers - 97/104 (recycle/alloc) - 7/102 (fetch/transfer)
+04-23 23:24:53.211   547  4028 D BufferPoolAccessor2.0: Destruction - bufferpool2 0xb4000076e192cb28 cached: 0/0M, 0/0% in use; allocs: 104, 93% recycled; transfers: 102, 93% unfetched
+04-23 23:24:53.220   547  7409 D CCodecConfig: c2 config diff is   c2::u32 raw.channel-mask.value = 12
+04-23 23:24:53.221   547  7409 D CCodecBuffers: [c2.android.aac.decoder#173:Output[N]] popFromStashAndRegister: at 0us, output format changed to AMessage(what = 0x00000000) = {
+04-23 23:24:53.221   547  7409 D CCodecBuffers:   int32_t aac-drc-album-mode = 0
+04-23 23:24:53.221   547  7409 D CCodecBuffers:   int32_t aac-drc-boost-level = 127
+04-23 23:24:53.221   547  7409 D CCodecBuffers:   int32_t aac-drc-cut-level = 127
+04-23 23:24:53.221   547  7409 D CCodecBuffers:   int32_t aac-drc-effect-type = 3
+04-23 23:24:53.221   547  7409 D CCodecBuffers:   int32_t aac-drc-output-loudness = -1
+04-23 23:24:53.221   547  7409 D CCodecBuffers:   int32_t aac-encoded-target-level = -1
+04-23 23:24:53.221   547  7409 D CCodecBuffers:   int32_t aac-max-output-channel_count = 8
+04-23 23:24:53.221   547  7409 D CCodecBuffers:   int32_t aac-target-ref-level = 64
+04-23 23:24:53.221   547  7409 D CCodecBuffers:   int32_t buffer-batch-max-output-size = 0
+04-23 23:24:53.221   547  7409 D CCodecBuffers:   int32_t buffer-batch-threshold-output-size = 0
+04-23 23:24:53.221   547  7409 D CCodecBuffers:   int32_t channel-count = 2
+04-23 23:24:53.221   547  7409 D CCodecBuffers:   int32_t channel-mask = 12
+04-23 23:24:53.221   547  7409 D CCodecBuffers:   int32_t max-output-channel-count = 8
+04-23 23:24:53.221   547  7409 D CCodecBuffers:   string mime = "audio/raw"
+04-23 23:24:53.221   547  7409 D CCodecBuffers:   int32_t sample-rate = 48000
+04-23 23:24:53.221   547  7409 D CCodecBuffers:   int32_t encoder-delay = 0
+04-23 23:24:53.221   547  7409 D CCodecBuffers:   int32_t encoder-padding = 0
+04-23 23:24:53.221   547  7409 D CCodecBuffers:   int32_t android._config-pcm-encoding = 2
+04-23 23:24:53.221   547  7409 D CCodecBuffers: }
+04-23 23:24:53.223   970   970 D BaseDepthController: setSurface:
+04-23 23:24:53.223   970   970 D BaseDepthController: 	mWaitingOnSurfaceValidity: false
+04-23 23:24:53.223   970   970 D BaseDepthController: 	mBaseSurface: null
+04-23 23:24:53.223   970   970 D BaseDepthController: mSurface is null and mCurrentBlur is: 0
+04-23 23:24:53.223   970   970 D StateManager: goToState - fromState: Normal, toState: Normal, partial trace:
+04-23 23:24:53.223   970   970 D StateManager: 	at com.android.launcher3.statemanager.StateManager.moveToRestState(go/retraceme ee19ec8c009da7af1d458e7d1683a6f5bf3b93b44f6674aa108e1a3e78584fe0:4)
+04-23 23:24:53.223   970   970 D StateManager: 	at com.android.launcher3.statemanager.StateManager.moveToRestState(go/retraceme ee19ec8c009da7af1d458e7d1683a6f5bf3b93b44f6674aa108e1a3e78584fe0:1)
+04-23 23:24:53.223   970   970 D StateManager: 	at com.android.launcher3.statemanager.StatefulActivity.onStop(go/retraceme ee19ec8c009da7af1d458e7d1683a6f5bf3b93b44f6674aa108e1a3e78584fe0:34)
+04-23 23:24:53.223   970   970 D StatsLog: LAUNCHER_ONSTOP
+04-23 23:24:53.224   471  6899 D NativePermissionController: checkPermission: missing 1 for 10242
+04-23 23:24:53.224   471  6899 D NativePermissionController: checkPermission: missing 3 for 10242
+04-23 23:24:53.224   471  6899 D NativePermissionController: checkPermission: missing 5 for 10242
+04-23 23:24:53.224   471  6899 D AudioFlinger: Client defaulted notificationFrames to 12512 for frameCount 25024
+04-23 23:24:53.224   471  6899 I AF::PthrPatchRecord: creating track with enforcement level 0
+04-23 23:24:53.247   970   970 D StatsLog: LAUNCHER_GOOGLE_SEARCH_RESTORE_LIST_SIZE_AFTER_ACTIVITY_RESTART
+04-23 23:24:53.271   547  7410 D CCodecConfig: c2 config diff is   c2::u32 raw.color.matrix = 1
+04-23 23:24:53.271   547  7410 D CCodecConfig:   c2::u32 raw.color.primaries = 1
+04-23 23:24:53.271   547  7410 D CCodecConfig:   c2::u32 raw.color.transfer = 3
+04-23 23:24:53.271   547  7410 D CCodecConfig:   c2::u32 raw.crop.height = 1792
+04-23 23:24:53.271   547  7410 D CCodecConfig:   c2::u32 raw.crop.left = 0
+04-23 23:24:53.271   547  7410 D CCodecConfig:   c2::u32 raw.crop.top = 0
+04-23 23:24:53.271   547  7410 D CCodecConfig:   c2::u32 raw.crop.width = 828
+04-23 23:24:53.274  1432  1432 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.common.BIND_SHARED_PREFS xflg=0x4 pkg=com.google.android.gms }
+04-23 23:24:53.365   610   711 I ImeTracker: eco.ray.app:28df134d: onRequestHide at ORIGIN_SERVER reason HIDE_UNSPECIFIED_WINDOW fromUser false
+04-23 23:24:53.393   610   793 D BackgroundInstallControlService: Package event received: 0
+04-23 23:24:53.407  7362  7362 D InsetsController: hide(ime(), fromIme=false)
+04-23 23:24:53.407  7362  7362 I ImeTracker: eco.ray.app:28df134d: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+04-23 23:24:53.423  1279  1279 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():2043 
+04-23 23:24:53.425   610   624 I ImeTracker: system_server:836c232e: onRequestHide at ORIGIN_SERVER reason IME_REQUESTED_CHANGED_LISTENER fromUser false
+04-23 23:24:53.433  1279  1279 I Module  : DeviceLockedStatusModuleProvider$Module.updateDeviceLockedStatus():100 repeatCheckTimes = 0, locked = false
+04-23 23:24:53.433  1279  1279 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1293 onStartInput(EditorInfo{EditorInfo{packageName=eco.ray.app, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=0, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)
+04-23 23:24:53.449   610   633 I ImeTracker: system_server:836c232e: onCancelled at PHASE_SERVER_SHOULD_HIDE
+04-23 23:24:53.467  1279  1279 I Module  : DeviceLockedStatusModuleProvider$Module.updateDeviceLockedStatus():100 repeatCheckTimes = 1, locked = false
+04-23 23:24:53.470  1279  1279 I EmojiCompatManager: EmojiCompatManager.getEmojiCompatIfLoaded():343 EmojiCompat.init() was never called.
+04-23 23:24:53.470  1279  1279 I EmojiCompatManager: java.lang.IllegalStateException: EmojiCompat is not initialized. Please call EmojiCompat.init() first
+04-23 23:24:53.470  1279  1279 I EmojiCompatManager: 	at asx.p(PG:6)
+04-23 23:24:53.470  1279  1279 I EmojiCompatManager: 	at axb.b(PG:13)
+04-23 23:24:53.470  1279  1279 I EmojiCompatManager: 	at jnr.b(PG:2)
+04-23 23:24:53.470  1279  1279 I EmojiCompatManager: 	at jnr.c(PG:4)
+04-23 23:24:53.470  1279  1279 I EmojiCompatManager: 	at jnr.f(PG:3)
+04-23 23:24:53.470  1279  1279 I EmojiCompatManager: 	at jnx.c(PG:3)
+04-23 23:24:53.470  1279  1279 I EmojiCompatManager: 	at kif.cz(PG:47)
+04-23 23:24:53.470  1279  1279 I EmojiCompatManager: 	at lhl.run(PG:1025)
+04-23 23:24:53.470  1279  1279 I EmojiCompatManager: 	at jaf.execute(PG:12)
+04-23 23:24:53.470  1279  1279 I EmojiCompatManager: 	at nco.v(PG:13)
+04-23 23:24:53.470  1279  1279 I EmojiCompatManager: 	at lhn.m(PG:96)
+04-23 23:24:53.470  1279  1279 I EmojiCompatManager: 	at lhn.k(PG:25)
+04-23 23:24:53.470  1279  1279 I EmojiCompatManager: 	at kgn.onStartInput(PG:250)
+04-23 23:24:53.470  1279  1279 I EmojiCompatManager: 	at android.inputmethodservice.InputMethodService.doStartInput(InputMethodService.java:3521)
+04-23 23:24:53.470  1279  1279 I EmojiCompatManager: 	at android.inputmethodservice.InputMethodService$InputMethodImpl.startInput(InputMethodService.java:879)
+04-23 23:24:53.470  1279  1279 I EmojiCompatManager: 	at android.inputmethodservice.InputMethodService$InputMethodImpl.dispatchStartInput(InputMethodService.java:908)
+04-23 23:24:53.470  1279  1279 I EmojiCompatManager: 	at android.inputmethodservice.IInputMethodWrapper.executeMessage(IInputMethodWrapper.java:201)
+04-23 23:24:53.470  1279  1279 I EmojiCompatManager: 	at com.android.internal.os.HandlerCaller$MyHandler.handleMessage(HandlerCaller.java:44)
+04-23 23:24:53.470  1279  1279 I EmojiCompatManager: 	at android.os.Handler.dispatchMessage(Handler.java:110)
+04-23 23:24:53.470  1279  1279 I EmojiCompatManager: 	at android.os.Looper.loopOnce(Looper.java:248)
+04-23 23:24:53.470  1279  1279 I EmojiCompatManager: 	at android.os.Looper.loop(Looper.java:338)
+04-23 23:24:53.470  1279  1279 I EmojiCompatManager: 	at android.app.ActivityThread.main(ActivityThread.java:9067)
+04-23 23:24:53.470  1279  1279 I EmojiCompatManager: 	at java.lang.reflect.Method.invoke(Native Method)
+04-23 23:24:53.470  1279  1279 I EmojiCompatManager: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:593)
+04-23 23:24:53.470  1279  1279 I EmojiCompatManager: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:932)
+04-23 23:24:53.470  1279  1279 W NotificationCenter: NotificationCenter$NotificationQueue.notifyPendingNotificationsOnExecutor():877 Heavy notify work detected on UI thread: [kig->ilu, kig->ilu, kig->ilu, kig->imt, kig->khg, kig->ilu, kig->khc, kig->ilu, kig->ilu, kig->ilu, kig->ilu, kig->ijm, kig->ilu, kig->lux, kig->fef, kig->fro, kig->fcb, kig->ilu, kig->ilu, kig->jnx, kig->ilu, kig->ilu] takes 36ms
+04-23 23:24:53.471   610   809 W PackageConfigPersister: App-specific configuration not found for packageName: eco.ray.app and userId: 0
+04-23 23:24:53.501   535  3976 W IPCThreadState: Sending oneway calls to frozen process.
+04-23 23:24:53.502   535  3976 W IPCThreadState: Sending oneway calls to frozen process.
+04-23 23:24:53.521   547   605 D MediaPlayerService: onAudioDeviceUpdate deviceIds: 2
+04-23 23:24:53.521   547  7405 D AudioTrack: getTimestamp_l(24): device stall time corrected using current time 965086613335
+04-23 23:24:53.529  7362  7372 W MediaPlayerNative: info/warning (3, 0)
+04-23 23:24:53.540  7362  7362 D AudioSystem: onNewService: media.audio_policy service obtained 0xb40000748747e800
+04-23 23:24:53.549  7362  7362 D AudioSystem: getService: checking for service media.audio_policy: 0xb40000748747e800
+04-23 23:24:53.571   836   983 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda13@c820fdc
+04-23 23:24:53.598   610   624 D CoreBackPreview: Window{359e69a u0 Splash Screen eco.ray.app EXITING}: Setting back callback null
+04-23 23:24:53.625  7362  7414 E eco.ray.app: No package ID 76 found for resource ID 0x760b000f.
+04-23 23:24:53.634  7362  7414 I FA      : App measurement initialized, version: 121000
+04-23 23:24:53.635  7362  7414 I FA      : To enable debug logging run: adb shell setprop log.tag.FA VERBOSE
+04-23 23:24:53.635  7362  7414 I FA      : To enable faster debug mode event logging run:
+04-23 23:24:53.635  7362  7414 I FA      :   adb shell setprop debug.firebase.analytics.app eco.ray.app
+04-23 23:24:53.677   610   793 D BackgroundInstallControlService: Package event received: 0
+04-23 23:24:53.682   610   793 D BackgroundInstallControlService: Package event received: 0
+04-23 23:24:53.686  1432  1432 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.measurement.START xflg=0x4 pkg=com.google.android.gms }
+04-23 23:24:53.686  1432  1432 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.measurement.START xflg=0x4 pkg=com.google.android.gms }
+04-23 23:24:53.700  7362  7414 I FA      : Tag Manager is not found and thus will not be used
+04-23 23:24:53.721  1432  7336 D AdvertisingIdClient: AdvertisingIdClient already created.
+04-23 23:24:53.721  1432  7336 D AdvertisingIdClient: AdvertisingIdClient is not bounded. Starting to bind it...
+04-23 23:24:53.724  1432  7336 D AdvertisingIdClient: AdvertisingIdClient is bounded
+04-23 23:24:53.725  1432  7336 I AdvertisingIdClient: shouldSendLog -1
+04-23 23:24:53.725  1432  7336 I AdvertisingIdClient: GetInfoInternal elapse 4ms
+04-23 23:24:53.733  1432  1432 I AdvertisingIdClient: getting error as 17: API: ClientTelemetry.API is not available on this device. Connection failed with: ConnectionResult{statusCode=API_DISABLED, resolution=null, message=null}
+04-23 23:24:54.392  7362  7366 I eco.ray.app: Compiler allocated 5111KB to compile void android.view.ViewRootImpl.performTraversals()
+04-23 23:24:55.936   610  1426 E TaskPersister: File error accessing recents directory (directory doesn't exist?).
+04-23 23:24:55.956   610   740 W BestClock: java.time.DateTimeException: No network time available
+04-23 23:24:55.956   610   740 W BestClock: java.time.DateTimeException: No network time available
+04-23 23:24:55.956   610   740 W BestClock: java.time.DateTimeException: No network time available
+04-23 23:24:55.956   610   740 W BestClock: java.time.DateTimeException: No network time available
+04-23 23:24:55.956   610   740 W BestClock: java.time.DateTimeException: No network time available
+04-23 23:24:56.823   471   584 D AudioFlinger: mixer(0xb400007205dc1770) throttle end: throttle time(6)
+04-23 23:24:57.072   547  7409 D CCodecBufferChannel: [c2.android.aac.decoder#173] buffers after EOS ignored (0 us)
+04-23 23:24:57.072   547  7409 D CCodecBufferChannel: [c2.android.aac.decoder#173] buffers after EOS ignored (0 us)
+04-23 23:24:57.074   547  7405 D AudioTrack: stop(24): called with 191488 frames delivered
+04-23 23:24:57.643   610   624 I MediaFocusControl: abandonAudioFocus() from uid/pid 10242/7362 clientId=android.media.AudioManager@ac93424 callingPack=eco.ray.app
+04-23 23:24:57.644   547   547 D NuPlayerDriver: stop(0xb40000758191e250)
+04-23 23:24:57.645  7362  7362 V MediaPlayer: resetDrmState:  mDrmInfo=null mDrmProvisioningThread=null mPrepareDrmInProgress=false mActiveDrmScheme=false
+04-23 23:24:57.645  7362  7362 V MediaPlayer: cleanDrmObj: mDrmObj=null mDrmSessionId=null
+04-23 23:24:57.645   547   547 D NuPlayerDriver: reset(0xb40000758191e250) at state 8
+04-23 23:24:57.650   422  1529 D C2BqBuffer: configuring null producer: igbp_information(0)
+04-23 23:24:57.657   547  7409 I hw-BpHwBinder: onLastStrongRef automatically unlinking death recipients
+04-23 23:24:57.657   552  7273 I hw-BpHwBinder: onLastStrongRef automatically unlinking death recipients
+04-23 23:24:57.657   552  7273 I hw-BpHwBinder: onLastStrongRef automatically unlinking death recipients
+04-23 23:24:57.658   422  1529 I hw-BpHwBinder: onLastStrongRef automatically unlinking death recipients
+04-23 23:24:57.659   422  1529 I GoldfishComponentStore: in ~ComponentModule
+04-23 23:24:57.659   422  1529 I GoldfishComponentStore: unloading dll
+04-23 23:24:57.659   547  7410 I hw-BpHwBinder: onLastStrongRef automatically unlinking death recipients
+04-23 23:24:57.660   547  7407 D SurfaceUtils: disconnecting from surface 0xb40000760192a6c0, reason disconnectFromSurface
+04-23 23:24:57.661   552  7411 D BufferPoolAccessor2.0: Destruction - bufferpool2 0xb4000077ebd913a8 cached: 0/0M, 0/0% in use; allocs: 0, 0% recycled; transfers: 0, 0% unfetched
+04-23 23:24:57.663   547  7406 D SurfaceUtils: connecting to surface 0xb40000760192a6c0, reason onShutdown
+04-23 23:24:57.664   547  7402 D NuPlayerDriver: notifyResetComplete(0xb40000758191e250)
+04-23 23:24:57.664   547   547 D SurfaceUtils: disconnecting from surface 0xb40000760192d3d0, reason disconnectNativeWindow
+04-23 23:24:57.664   547   547 W AMessage: failed to post message as target looper for handler 0 is gone.
+04-23 23:24:57.665   610  1808 I MediaFocusControl: abandonAudioFocus() from uid/pid 10242/7362 clientId=android.media.AudioManager@ac93424 callingPack=eco.ray.app
+04-23 23:24:57.670  7362  7362 W HWUI    : Image decoding logging dropped!
+04-23 23:24:57.694  7362  7362 I eco.ray.app: hiddenapi: Accessing hidden method Ljava/lang/invoke/MethodHandles$Lookup;-><init>(Ljava/lang/Class;I)V (runtime_flags=0, domain=core-platform, api=unsupported) from Lc0/x; (domain=app) using reflection: allowed
+04-23 23:24:57.704  7362  7362 D MockAuthHelper: Login bypassed - navigating to home
+04-23 23:24:57.731  7362  7362 D o.c.a.i : initialize.
+04-23 23:24:57.731  7362  7362 D o.c.a.i : isDeviceConnectionOpen() Bluetooth device - null, mIsTIOConnected - false, mIsANCSConnected - false, mBluetoothGattServer - null, mBluetoothDevice - null
+04-23 23:24:58.171   547  4039 D BufferPoolAccessor2.0: evictor expired: 1, evicted: 0
+04-23 23:24:58.215   552   600 D BufferPoolAccessor2.0: evictor expired: 1, evicted: 0
+04-23 23:24:58.650   422  4077 D C2BqPoolInvalidator: invalidated 1 bqpool items
+04-23 23:24:58.963   610   740 W BestClock: java.time.DateTimeException: No network time available
+04-23 23:24:58.963   610   740 W BestClock: java.time.DateTimeException: No network time available
+04-23 23:24:58.963   610   740 W BestClock: java.time.DateTimeException: No network time available
+04-23 23:24:58.963   610   740 W BestClock: java.time.DateTimeException: No network time available
+04-23 23:24:58.963   610   740 W BestClock: java.time.DateTimeException: No network time available
+04-23 23:24:58.991  1432  7337 W heql    : [{0}] Failed to resolve name. status={1}
+04-23 23:24:59.172   547  4039 D BufferPoolAccessor2.0: evictor expired: 1, evicted: 0
+04-23 23:24:59.742   610   624 W AS.PlaybackActivityMon: No piid assigned for invalid/internal port id 16
+04-23 23:25:01.149   610  1781 W AS.PlaybackActivityMon: No piid assigned for invalid/internal port id 16
+04-23 23:25:01.155   962  1191 D SatelliteController: iisInCarrierRoamingNbIotNtn: satellite is disabled
+04-23 23:25:01.185  7362  7362 D AndroidRuntime: Shutting down VM
+--------- beginning of crash
+04-23 23:25:01.187  7362  7362 E AndroidRuntime: FATAL EXCEPTION: main
+04-23 23:25:01.187  7362  7362 E AndroidRuntime: Process: eco.ray.app, PID: 7362
+04-23 23:25:01.187  7362  7362 E AndroidRuntime: java.lang.VerifyError: Verifier rejected class j.a.a.e.z0: void j.a.a.e.z0.o() failed to verify: void j.a.a.e.z0.o(): [0x75] copy-cat1 v0<-v13 type=Undefined (declaration of 'j.a.a.e.z0' appears in /data/app/~~mzTtaKXh3ZsBe2FAxP8BzA==/eco.ray.app-Ns9n4o3YHJX44Q2r71w8zg==/base.apk)
+04-23 23:25:01.187  7362  7362 E AndroidRuntime: 	at eco.ray.app.DataBinderMapperImpl.b(:2)
+04-23 23:25:01.187  7362  7362 E AndroidRuntime: 	at androidx.databinding.MergedDataBinderMapper.b(Unknown Source:18)
+04-23 23:25:01.187  7362  7362 E AndroidRuntime: 	at u.l.f.a(Unknown Source:2)
+04-23 23:25:01.187  7362  7362 E AndroidRuntime: 	at u.l.f.b(:4)
+04-23 23:25:01.187  7362  7362 E AndroidRuntime: 	at j.a.a.c.g.d.onCreateView(Unknown Source:10)
+04-23 23:25:01.187  7362  7362 E AndroidRuntime: 	at androidx.fragment.app.Fragment.performCreateView(Unknown Source:19)
+04-23 23:25:01.187  7362  7362 E AndroidRuntime: 	at u.o.b.c0.f(:2)
+04-23 23:25:01.187  7362  7362 E AndroidRuntime: 	at u.o.b.c0.k(:6)
+04-23 23:25:01.187  7362  7362 E AndroidRuntime: 	at androidx.fragment.app.FragmentManager.E(:8)
+04-23 23:25:01.187  7362  7362 E AndroidRuntime: 	at androidx.fragment.app.FragmentManager.a0(Unknown Source:94)
+04-23 23:25:01.187  7362  7362 E AndroidRuntime: 	at androidx.fragment.app.FragmentManager.C(:4)
+04-23 23:25:01.187  7362  7362 E AndroidRuntime: 	at androidx.fragment.app.FragmentManager$g.run(Unknown Source:3)
+04-23 23:25:01.187  7362  7362 E AndroidRuntime: 	at android.os.Handler.handleCallback(Handler.java:995)
+04-23 23:25:01.187  7362  7362 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:103)
+04-23 23:25:01.187  7362  7362 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:248)
+04-23 23:25:01.187  7362  7362 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:338)
+04-23 23:25:01.187  7362  7362 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:9067)
+04-23 23:25:01.187  7362  7362 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+04-23 23:25:01.187  7362  7362 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:593)
+04-23 23:25:01.187  7362  7362 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:932)
+04-23 23:25:01.189   610  1808 E ActivityManager: App crashed on incremental package eco.ray.app which is 100% loaded.
+04-23 23:25:01.191   610  1808 W ActivityTaskManager:   Force finishing activity eco.ray.app/.base.ui.MainActivity
+04-23 23:25:01.192   610  7435 I DropBoxManagerService: add tag=data_app_crash isTagEnabled=true flags=0x2
+04-23 23:25:01.194   836   909 V WindowManagerShell: Transition requested (#33): android.os.BinderProxy@9c4d522 TransitionRequestInfo { type = CLOSE, triggerTask = TaskInfo{userId=0 taskId=100 effectiveUid=10242 displayId=0 isRunning=true baseIntent=Intent { flg=0x10000000 cmp=eco.ray.app/.base.ui.MainActivity } baseActivity=ComponentInfo{eco.ray.app/eco.ray.app.base.ui.MainActivity} topActivity=ComponentInfo{eco.ray.app/eco.ray.app.base.ui.MainActivity} origActivity=null realActivity=ComponentInfo{eco.ray.app/eco.ray.app.base.ui.MainActivity} numActivities=1 lastActiveTime=964355 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{android.window.IWindowContainerToken$Stub$Proxy@c0b4bb3} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=Rect(0, 0 - 0, 0) topActivityInfo=ActivityInfo{151f570 eco.ray.app.base.ui.MainActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=true isVisible=true isVisibleRequested=true isTopActivityNoDisplay=false isSleeping=false locusId=null displayAreaFeatureId=1 isTopActivityTransparent=false isActivityStackTransparent=false lastNonFullscreenBounds=Rect(284, 660 - 796, 1740) capturedLink=null capturedLinkTimestamp=0 requestedVisibleTypes=-9 topActivityRequestOpenInBrowserEducationTimestamp=0 appCompatTaskInfo=AppCompatTaskInfo { topActivityInSizeCompat=false eligibleForLetterboxEducation= false isLetterboxEducationEnabled= true isLetterboxDoubleTapEnabled= false eligibleForUserAspectRatioButton= false topActivityBoundsLetterboxed= false isFromLetterboxDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=-1 topActivityLetterboxHeight=-1 topActivityAppBounds=Rect(0, 0 - 1080, 2337) isUserFullscreenOverrideEnabled=false isSystemFullscreenOverrideEnabled=false hasMinAspectRatioOverride=false topActivityLetterboxBounds=null cameraCompatTaskInfo=CameraCompatTaskInfo { freeformCameraCompatMode=inactive}} topActivityMainWindowFrame=null}, pipChange = null, remoteTransition = null, displayChange = null, flags = 16, debugId = 33 }
+04-23 23:25:01.208   610   631 I ActivityManager: Showing crash dialog for package eco.ray.app u0
+04-23 23:25:01.210   481  1030 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+04-23 23:25:01.212   481   481 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+04-23 23:25:01.232   610   631 D CoreBackPreview: Window{388b641 u0 Application Error: eco.ray.app}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.WindowOnBackInvokedDispatcher$OnBackInvokedCallbackWrapper@a73bdbe, mPriority=-1, mIsAnimationCallback=false, mOverrideBehavior=0}
+04-23 23:25:01.695   610   633 W ActivityTaskManager: Activity top resumed state loss timeout for ActivityRecord{52540297 u0 eco.ray.app/.base.ui.MainActivity t100 f}}
+04-23 23:25:01.699   610   633 W ActivityTaskManager: Activity pause timeout for ActivityRecord{52540297 u0 eco.ray.app/.base.ui.MainActivity t100 f}}
+04-23 23:25:01.703   970   970 D ViewRootImpl: Skipping stats log for color mode
+04-23 23:25:01.708   970   970 D StatsLog: LAUNCHER_ONRESUME
+04-23 23:25:01.711   836   909 D WindowManagerShell: setLauncherKeepClearAreaHeight: visible=true, height=527
+04-23 23:25:01.711   610   793 D BackgroundInstallControlService: Package event received: 0
+04-23 23:25:01.715   970   970 D NexusLauncherModelDelegate: notifySmartspaceEvent: SmartspaceTargetEvent{mSmartspaceTarget=null, mSmartspaceActionId='null', mEventType=6}
+04-23 23:25:01.720   970   970 D BaseDepthController: setSurface:
+04-23 23:25:01.720   970   970 D BaseDepthController: 	mWaitingOnSurfaceValidity: false
+04-23 23:25:01.720   970   970 D BaseDepthController: 	mBaseSurface: Surface(name=com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity)/@0x273efd0
+04-23 23:25:01.724   970   997 D QuickstepModelDelegate: notifyAppTargetEvent action=1 launchLocation=workspace/0/[-1,-1]/[1,1]
+04-23 23:25:01.728   610   793 D BackgroundInstallControlService: Package event received: 0
+04-23 23:25:01.728   610   793 D BackgroundInstallControlService: Package event received: 0
+04-23 23:25:01.741   836  4291 V WindowManagerShell: onTransitionReady(transaction=2619930052042)
+04-23 23:25:01.745   836   909 V WindowManagerShell: onTransitionReady (#33) android.os.BinderProxy@9c4d522: {id=33 t=CLOSE f=0x10 trk=0 r=[0@Point(0, 0)] c=[
+04-23 23:25:01.745   836   909 V WindowManagerShell:         {m=TO_FRONT f=SHOW_WALLPAPER|MOVE_TO_TOP leash=Surface(name=Task=1)/@0xd4dd0e9 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) epz=Point(1080, 2400) d=0 taskParent=-1},
+04-23 23:25:01.745   836   909 V WindowManagerShell:         {m=CLOSE f=NONE leash=Surface(name=Task=100)/@0xcff216e sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) epz=Point(1080, 2400) d=0 taskParent=-1},
+04-23 23:25:01.745   836   909 V WindowManagerShell:         {m=TO_FRONT f=IS_WALLPAPER leash=Surface(name=WallpaperWindowToken{5cb8624 showWhenLocked=false})/@0xde4f00f sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) epz=Point(1080, 2400) d=0}
+04-23 23:25:01.745   836   909 V WindowManagerShell:     ]}
+04-23 23:25:01.752   836   909 V WindowManagerShell: Playing animation for (#33) android.os.BinderProxy@9c4d522@0
+04-23 23:25:01.753   610   630 V WindowManager: Sent Transition (#33) createdAt=04-23 23:25:01.191 via request=TransitionRequestInfo { type = CLOSE, triggerTask = TaskInfo{userId=0 taskId=100 effectiveUid=10242 displayId=0 isRunning=true baseIntent=Intent { flg=0x10000000 cmp=eco.ray.app/.base.ui.MainActivity } baseActivity=ComponentInfo{eco.ray.app/eco.ray.app.base.ui.MainActivity} topActivity=ComponentInfo{eco.ray.app/eco.ray.app.base.ui.MainActivity} origActivity=null realActivity=ComponentInfo{eco.ray.app/eco.ray.app.base.ui.MainActivity} numActivities=1 lastActiveTime=964355 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{RemoteToken{114d1fd Task{f035f8e #100 type=standard A=10242:eco.ray.app}}} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=Rect(0, 0 - 0, 0) topActivityInfo=ActivityInfo{486aef2 eco.ray.app.base.ui.MainActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=true isVisible=true isVisibleRequested=true isTopActivityNoDisplay=false isSleeping=false locusId=null displayAreaFeatureId=1 isTopActivityTransparent=false isActivityStackTransparent=false lastNonFullscreenBounds=Rect(284, 660 - 796, 1740) capturedLink=null capturedLinkTimestamp=0 requestedVisibleTypes=-9 topActivityRequestOpenInBrowserEducationTimestamp=0 appCompatTaskInfo=AppCompatTaskInfo { topActivityInSizeCompat=false eligibleForLetterboxEducation= false isLetterboxEducationEnabled= true isLetterboxDoubleTapEnabled= false eligibleForUserAspectRatioButton= false topActivityBoundsLetterboxed= false isFromLetterboxDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=-1 topActivityLetterboxHeight=-1 topActivityAppBounds=Rect(0, 0 - 1080, 2337) isUserFullscreenOverrideEnabled=false isSystemFullscreenOverrideEnabled=false hasMinAspectRatioOverride=false topActivityLetterboxBounds=null cameraCompatTaskInfo=CameraCompatTaskInfo { freeformCameraCompatMode=inactive}} topActivityMainWindowFrame=null}, pipChange = null, remoteTransition = null, displayChange = null, flags = 16, debugId = 33 }
+04-23 23:25:01.754   836   909 V ShellRecents: RecentsTransitionHandler.startAnimation: no controller found
+04-23 23:25:01.754   836   909 V WindowManagerShell: Transition doesn't have explicit remote, search filters for match for {id=33 t=CLOSE f=0x10 trk=0 r=[0@Point(0, 0)] c=[{m=TO_FRONT f=SHOW_WALLPAPER|MOVE_TO_TOP leash=Surface(name=Task=1)/@0xd4dd0e9 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) epz=Point(1080, 2400) d=0 taskParent=-1},{m=CLOSE f=NONE leash=Surface(name=Task=100)/@0xcff216e sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) epz=Point(1080, 2400) d=0 taskParent=-1},{m=TO_FRONT f=IS_WALLPAPER leash=Surface(name=WallpaperWindowToken{5cb8624 showWhenLocked=false})/@0xde4f00f sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) epz=Point(1080, 2400) d=0}]}
+04-23 23:25:01.754   836   909 V WindowManagerShell:  Checking filter Pair{{types=[] flags=0x0] notFlags=0x0 checks=[{atype=undefined independent=true modes=[CLOSE,TO_BACK] flags=IN_TASK_WITH_EMBEDDED_ACTIVITY mustBeTask=false order=ANY topActivity=null launchCookie=null taskFragmentToken=android.os.BinderProxy@846add2 windowingMode=undefined}]} RemoteTransition { remoteTransition = android.window.IRemoteTransition$Stub$Proxy@17a2ea3, appThread = android.app.IApplicationThread$Stub$Proxy@4db5a0, debugName = overlayBackTransition }}
+04-23 23:25:01.754   836   909 V WindowManagerShell:  Checking filter Pair{{types=[] flags=0x0] notFlags=0x0 checks=[{atype=dream independent=true modes=[OPEN,TO_FRONT] flags=NONE mustBeTask=false order=ANY topActivity=null launchCookie=null windowingMode=undefined},{atype=home independent=true modes=[CLOSE,TO_BACK] flags=NONE mustBeTask=false order=ANY topActivity=null launchCookie=null windowingMode=undefined}]} RemoteTransition { remoteTransition = android.window.IRemoteTransition$Stub$Proxy@82d4559, appThread = android.app.IApplicationThread$Stub$Proxy@23dd51e, debugName = LauncherToDream }}
+04-23 23:25:01.754   836   909 V WindowManagerShell:  Checking filter Pair{{types=[] flags=0x0] notFlags=0x100 checks=[{atype=home independent=true modes=[OPEN,TO_FRONT] flags=NONE mustBeTask=false order=TOP topActivity=ComponentInfo{com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity} launchCookie=null windowingMode=undefined},{atype=standard independent=true modes=[CLOSE,TO_BACK] flags=NONE mustBeTask=false order=ANY topActivity=null launchCookie=null windowingMode=undefined},{NOT atype=undefined independent=true modes=[] flags=NONE mustBeTask=true order=ANY topActivity=null launchCookie=null customAnim=true windowingMode=undefined}]} RemoteTransition { remoteTransition = android.window.IRemoteTransition$Stub$Proxy@e7711ff, appThread = android.app.IApplicationThread$Stub$Proxy@a688bcc, debugName = QuickstepLaunchHome }}
+04-23 23:25:01.754   836   909 D RemoteTransitionHandler: Found filterPair{{types=[] flags=0x0] notFlags=0x100 checks=[{atype=home independent=true modes=[OPEN,TO_FRONT] flags=NONE mustBeTask=false order=TOP topActivity=ComponentInfo{com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity} launchCookie=null windowingMode=undefined},{atype=standard independent=true modes=[CLOSE,TO_BACK] flags=NONE mustBeTask=false order=ANY topActivity=null launchCookie=null windowingMode=undefined},{NOT atype=undefined independent=true modes=[] flags=NONE mustBeTask=true order=ANY topActivity=null launchCookie=null customAnim=true windowingMode=undefined}]} RemoteTransition { remoteTransition = android.window.IRemoteTransition$Stub$Proxy@e7711ff, appThread = android.app.IApplicationThread$Stub$Proxy@a688bcc, debugName = QuickstepLaunchHome }}
+04-23 23:25:01.754   836   909 V WindowManagerShell:  Delegate animation for (#33) to RemoteTransition { remoteTransition = android.window.IRemoteTransition$Stub$Proxy@e7711ff, appThread = android.app.IApplicationThread$Stub$Proxy@a688bcc, debugName = QuickstepLaunchHome }
+04-23 23:25:01.755   610   630 V WindowManager:     startWCT=WindowContainerTransaction { changes= {} hops= [] errorCallbackToken=null taskFragmentOrganizer=null }
+04-23 23:25:01.755   610   630 V WindowManager:     info={id=33 t=CLOSE f=0x10 trk=0 r=[0@Point(0, 0)] c=[
+04-23 23:25:01.755   610   630 V WindowManager:         {WCT{RemoteToken{d94cefd Task{1b25177 #1 type=home}}} m=TO_FRONT f=SHOW_WALLPAPER|MOVE_TO_TOP leash=Surface(name=Task=1)/@0x9bb10a8 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) epz=Point(1080, 2400) d=0 taskParent=-1},
+04-23 23:25:01.755   610   630 V WindowManager:         {WCT{RemoteToken{114d1fd Task{f035f8e #100 type=standard A=10242:eco.ray.app}}} m=CLOSE f=NONE leash=Surface(name=Task=100)/@0x7cbd9a7 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) epz=Point(1080, 2400) d=0 taskParent=-1},
+04-23 23:25:01.755   610   630 V WindowManager:         {m=TO_FRONT f=IS_WALLPAPER leash=Surface(name=WallpaperWindowToken{5cb8624 showWhenLocked=false})/@0x4f770cb sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) epz=Point(1080, 2400) d=0}
+04-23 23:25:01.755   610   630 V WindowManager:     ]}
+04-23 23:25:01.759   836   909 V WindowManagerShell:  animated by com.android.wm.shell.transition.RemoteTransitionHandler@ab6dc05
+04-23 23:25:01.760   970   970 D StateManager: createAtomicAnimation - fromState: Background, toState: Normal, partial trace:
+04-23 23:25:01.760   970   970 D StateManager: 	at com.android.quickstep.util.ScalingWorkspaceRevealAnim.<init>(go/retraceme ee19ec8c009da7af1d458e7d1683a6f5bf3b93b44f6674aa108e1a3e78584fe0:39)
+04-23 23:25:01.760   970   970 D StateManager: 	at com.android.launcher3.QuickstepTransitionManager.createWallpaperOpenAnimations(go/retraceme ee19ec8c009da7af1d458e7d1683a6f5bf3b93b44f6674aa108e1a3e78584fe0:168)
+04-23 23:25:01.760   970   970 D StateManager: 	at com.android.launcher3.QuickstepTransitionManager$WallpaperOpenLauncherAnimationRunner.onAnimationStart(go/retraceme ee19ec8c009da7af1d458e7d1683a6f5bf3b93b44f6674aa108e1a3e78584fe0:17)
+04-23 23:25:01.760   970   970 D b/311077782: LauncherAnimationRunner.setAnimation
+04-23 23:25:01.779   481   481 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+04-23 23:25:01.779   433   433 I RanchuHwc: logCompositionFallbackIfChanged: layer 78 CompositionType fallback from 2 to 1
+04-23 23:25:01.779   433   433 I RanchuHwc: logCompositionFallbackIfChanged: layer 79 CompositionType fallback from 3 to 1
+04-23 23:25:01.779   433   433 I RanchuHwc: logCompositionFallbackIfChanged: layer 75 CompositionType fallback from 2 to 1
+04-23 23:25:01.786  1355  1531 I AiAiEcho: Predicting[0]:  [CONTEXT sampling_count=5 ]
+04-23 23:25:01.786  1355  1531 I AiAiEcho: EchoTargets: 
+04-23 23:25:01.786  1355  1531 I AiAiEcho: Filtered by AiAi flag check: 
+04-23 23:25:01.786  1355  1531 I AiAiEcho: [CONTEXT ratelimit_period="10 SECONDS" ]
+04-23 23:25:01.786  1355  1531 I AiAiEcho: #remoteViewsTwiddler: feature disabled.
+04-23 23:25:01.790  1355  1531 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface home with targets# 0 (types=[])
+04-23 23:25:01.793   970   997 W HWUI    : Image decoding logging dropped!
+04-23 23:25:01.794   970   997 W HWUI    : Image decoding logging dropped!
+04-23 23:25:01.815   970   970 D SsBaseTemplateCard: No text view can be set up
+04-23 23:25:01.816   970   970 D SsBaseTemplateCard: Passed-in item info is null
+04-23 23:25:01.816   970   970 D SsBaseTemplateCard: Passed-in item info is null
+04-23 23:25:01.817   970   970 D SsBaseTemplateCard: Passed-in item info is null
+04-23 23:25:01.817   970   970 I SsBaseTemplateCard: Secondary card pane is null
+04-23 23:25:01.965   610   740 W BestClock: java.time.DateTimeException: No network time available
+04-23 23:25:01.965   610   740 W BestClock: java.time.DateTimeException: No network time available
+04-23 23:25:01.965   610   740 W BestClock: java.time.DateTimeException: No network time available
+04-23 23:25:01.965   610   740 W BestClock: java.time.DateTimeException: No network time available
+04-23 23:25:01.965   610   740 W BestClock: java.time.DateTimeException: No network time available
+04-23 23:25:02.748   970   970 D ScalingWorkspaceRevealAnim: alpha of workspace at the end of animation: 1.0
+04-23 23:25:02.749   836   909 V WindowManagerShell: Transition animation finished (aborted=false), notifying core (#33) android.os.BinderProxy@9c4d522@0
+04-23 23:25:02.752   610   630 V WindowManager: Finish Transition (#33): created at 04-23 23:25:01.191 collect-started=0.024ms request-sent=0.14ms started=13.575ms ready=510.606ms sent=549.739ms commit=27.71ms finished=1559.466ms
+04-23 23:25:02.755   836   909 V WindowManagerShell: Track 0 became idle
+04-23 23:25:02.755   836   909 V WindowManagerShell: All active transition animations finished
+04-23 23:25:02.757   610   633 W IPCThreadState: Sending oneway calls to frozen process.
+04-23 23:25:02.757   610   633 W IPCThreadState: Sending oneway calls to frozen process.
+04-23 23:25:02.757   610   633 W IPCThreadState: Sending oneway calls to frozen process.
+04-23 23:25:02.757   610   633 W IPCThreadState: Sending oneway calls to frozen process.
+04-23 23:25:02.757   610   633 W IPCThreadState: Sending oneway calls to frozen process.
+04-23 23:25:02.757   610   633 W IPCThreadState: Sending oneway calls to frozen process.
+04-23 23:25:02.757   610   633 W IPCThreadState: Sending oneway calls to frozen process.
+04-23 23:25:02.757   610   633 W IPCThreadState: Sending oneway calls to frozen process.
+04-23 23:25:02.757   610   633 W IPCThreadState: Sending oneway calls to frozen process.
+04-23 23:25:02.757   610   633 W IPCThreadState: Sending oneway calls to frozen process.
+04-23 23:25:02.757   610   633 W IPCThreadState: Sending oneway calls to frozen process.
+04-23 23:25:02.757   610   633 W IPCThreadState: Sending oneway calls to frozen process.
+04-23 23:25:02.758   610   633 W IPCThreadState: Sending oneway calls to frozen process.
+04-23 23:25:02.758   610   633 W IPCThreadState: Sending oneway calls to frozen process.
+04-23 23:25:02.758   610   633 W IPCThreadState: Sending oneway calls to frozen process.
+04-23 23:25:02.758   610   633 W IPCThreadState: Sending oneway calls to frozen process.
+04-23 23:25:02.758   610   633 W IPCThreadState: Sending oneway calls to frozen process.
+04-23 23:25:02.758   610   633 W IPCThreadState: Sending oneway calls to frozen process.
+04-23 23:25:02.758   610   633 W IPCThreadState: Sending oneway calls to frozen process.
+04-23 23:25:02.758   610   633 W IPCThreadState: Sending oneway calls to frozen process.
+04-23 23:25:02.758   610   633 W IPCThreadState: Sending oneway calls to frozen process.
+04-23 23:25:02.758   610   633 W IPCThreadState: Sending oneway calls to frozen process.
+04-23 23:25:02.758   610   633 W IPCThreadState: Sending oneway calls to frozen process.
+04-23 23:25:02.758   610   633 W IPCThreadState: Sending oneway calls to frozen process.
+04-23 23:25:02.758   610   633 W IPCThreadState: Sending oneway calls to frozen process.
+04-23 23:25:02.758   610   633 W IPCThreadState: Sending oneway calls to frozen process.
+04-23 23:25:02.758   610   633 W IPCThreadState: Sending oneway calls to frozen process.
+04-23 23:25:02.758   610   633 W IPCThreadState: Sending oneway calls to frozen process.
+04-23 23:25:02.758   610   633 W IPCThreadState: Sending oneway calls to frozen process.
+04-23 23:25:02.758   610   633 W IPCThreadState: Sending oneway calls to frozen process.
+04-23 23:25:02.758   610   633 W IPCThreadState: Sending oneway calls to frozen process.
+04-23 23:25:02.758   610   633 W IPCThreadState: Sending oneway calls to frozen process.
+04-23 23:25:02.758   610   633 W IPCThreadState: Sending oneway calls to frozen process.
+04-23 23:25:02.758   610   633 W IPCThreadState: Sending oneway calls to frozen process.
+04-23 23:25:02.758   610   633 W IPCThreadState: Sending oneway calls to frozen process.
+04-23 23:25:02.758   610   633 W IPCThreadState: Sending oneway calls to frozen process.
+04-23 23:25:02.758   610   633 W IPCThreadState: Sending oneway calls to frozen process.
+04-23 23:25:02.758   610   633 W IPCThreadState: Sending oneway calls to frozen process.
+04-23 23:25:02.758   610   633 W IPCThreadState: Sending oneway calls to frozen process.
+04-23 23:25:02.758   610   633 W IPCThreadState: Sending oneway calls to frozen process.
+04-23 23:25:02.758   610   633 W IPCThreadState: Sending oneway calls to frozen process.
+04-23 23:25:02.758   610   633 W IPCThreadState: Sending oneway calls to frozen process.
+04-23 23:25:02.758   610   633 W IPCThreadState: Sending oneway calls to frozen process.
+04-23 23:25:02.758   610   633 W IPCThreadState: Sending oneway calls to frozen process.
+04-23 23:25:02.758   610   633 W IPCThreadState: Sending oneway calls to frozen process.
+04-23 23:25:02.758   610   633 W IPCThreadState: Sending oneway calls to frozen process.
+04-23 23:25:03.175   547  4039 D BufferPoolAccessor2.0: bufferpool2 0xb4000076e1927598 : 0(0 size) total buffers - 0(0 size) used buffers - 184/192 (recycle/alloc) - 8/189 (fetch/transfer)
+04-23 23:25:03.175   547  4039 D BufferPoolAccessor2.0: bufferpool2 0xb4000076e1925098 : 0(0 size) total buffers - 0(0 size) used buffers - 97/103 (recycle/alloc) - 6/102 (fetch/transfer)
+04-23 23:25:03.175   547  4039 D BufferPoolAccessor2.0: evictor expired: 2, evicted: 2
+04-23 23:25:03.218   552   600 D BufferPoolAccessor2.0: bufferpool2 0xb4000077ebd8be18 : 0(0 size) total buffers - 0(0 size) used buffers - 183/187 (recycle/alloc) - 4/187 (fetch/transfer)
+04-23 23:25:03.218   552   600 D BufferPoolAccessor2.0: evictor expired: 2, evicted: 1
+04-23 23:25:03.787   836   983 E FrameTracker: force finish cuj, time out: J<SPLASHSCREEN_EXIT_ANIM>
+04-23 23:25:03.787   836   983 W FrameTracker: Missed SF frame:JANK_COMPOSER, 41474, 8853727, CUJ=J<SPLASHSCREEN_EXIT_ANIM>
+04-23 23:25:03.787   836   983 W FrameTracker: Missed SF frame:JANK_COMPOSER, 41496, 13127936, CUJ=J<SPLASHSCREEN_EXIT_ANIM>
+04-23 23:25:03.787   836   983 W FrameTracker: Missed SF frame:JANK_COMPOSER, 41518, 8717603, CUJ=J<SPLASHSCREEN_EXIT_ANIM>
+04-23 23:25:03.787   836   983 W FrameTracker: Missed SF frame:JANK_COMPOSER, 41526, 8442646, CUJ=J<SPLASHSCREEN_EXIT_ANIM>
+04-23 23:25:03.787   836   983 W FrameTracker: Missed App frame:UNKNOWN: 3, 41534, 29789063, CUJ=J<SPLASHSCREEN_EXIT_ANIM>
+04-23 23:25:03.787   836   983 W FrameTracker: Missed SF frame:UNKNOWN: 3, 41534, 29789063, CUJ=J<SPLASHSCREEN_EXIT_ANIM>
+04-23 23:25:03.787   836   983 W FrameTracker: Missed App frame:UNKNOWN: 3, 41542, 29971064, CUJ=J<SPLASHSCREEN_EXIT_ANIM>
+04-23 23:25:03.787   836   983 W FrameTracker: Missed SF frame:UNKNOWN: 3, 41542, 29971064, CUJ=J<SPLASHSCREEN_EXIT_ANIM>
+04-23 23:25:03.787   836   983 W FrameTracker: Missed SF frame:JANK_COMPOSER, 41550, 16630190, CUJ=J<SPLASHSCREEN_EXIT_ANIM>
+04-23 23:25:03.787   836   983 W FrameTracker: Missed SF frame:JANK_COMPOSER, 41573, 14720983, CUJ=J<SPLASHSCREEN_EXIT_ANIM>
+04-23 23:25:03.787   836   983 W FrameTracker: Missed App frame:UNKNOWN: 3, 41581, 16862609, CUJ=J<SPLASHSCREEN_EXIT_ANIM>
+04-23 23:25:03.787   836   983 W FrameTracker: Missed SF frame:UNKNOWN: 3, 41581, 16862609, CUJ=J<SPLASHSCREEN_EXIT_ANIM>
+04-23 23:25:03.787   836   983 W FrameTracker: Missed SF frame:JANK_COMPOSER, 41596, 29771818, CUJ=J<SPLASHSCREEN_EXIT_ANIM>
+04-23 23:25:03.787   836   983 W FrameTracker: Missed SF frame:JANK_COMPOSER, 41604, 28898360, CUJ=J<SPLASHSCREEN_EXIT_ANIM>
+04-23 23:25:03.787   836   983 W FrameTracker: Missed SF frame:JANK_COMPOSER, 41612, 25555152, CUJ=J<SPLASHSCREEN_EXIT_ANIM>
+04-23 23:25:03.787   836   983 W FrameTracker: Missed SF frame:JANK_COMPOSER, 41627, 13495986, CUJ=J<SPLASHSCREEN_EXIT_ANIM>
+04-23 23:25:03.787   836   983 W FrameTracker: Missed App frame:UNKNOWN: 3, 41642, 35094362, CUJ=J<SPLASHSCREEN_EXIT_ANIM>
+04-23 23:25:03.787   836   983 W FrameTracker: Missed SF frame:UNKNOWN: 3, 41642, 35094362, CUJ=J<SPLASHSCREEN_EXIT_ANIM>
+04-23 23:25:03.787   836   983 W FrameTracker: Missed App frame:UNKNOWN: 3, 41650, 63807946, CUJ=J<SPLASHSCREEN_EXIT_ANIM>
+04-23 23:25:03.787   836   983 W FrameTracker: Missed SF frame:UNKNOWN: 3, 41650, 63807946, CUJ=J<SPLASHSCREEN_EXIT_ANIM>
+04-23 23:25:03.787   836   983 W FrameTracker: Missed SF frame:JANK_COMPOSER, 41658, 57114613, CUJ=J<SPLASHSCREEN_EXIT_ANIM>
+04-23 23:25:03.787   836   983 W FrameTracker: Missed SF frame:JANK_COMPOSER, 41673, 21157449, CUJ=J<SPLASHSCREEN_EXIT_ANIM>
+04-23 23:25:04.248   414  4050 D android.hardware.audio@7.1-impl.ranchu: threadLoop: entering standby, frames: 5357312
+04-23 23:25:04.248   414  4050 D android.hardware.audio@7.1-impl.ranchu: ~TinyalsaSink: stopping PCM stream
+04-23 23:25:04.248   414  4050 D android.hardware.audio@7.1-impl.ranchu: ~TinyalsaSink: joining consumeThread
+04-23 23:25:04.249   414  7397 D android.hardware.audio@7.1-impl.ranchu: consumeThread: exiting
+04-23 23:25:04.971   610   740 W BestClock: java.time.DateTimeException: No network time available
+04-23 23:25:04.971   610   740 W BestClock: java.time.DateTimeException: No network time available
+04-23 23:25:04.971   610   740 W BestClock: java.time.DateTimeException: No network time available
+04-23 23:25:04.971   610   740 W BestClock: java.time.DateTimeException: No network time available
+04-23 23:25:04.971   610   740 W BestClock: java.time.DateTimeException: No network time available
+04-23 23:25:06.232   610   705 W InputDispatcher: Window 9c7f6b4 eco.ray.app/eco.ray.app.base.ui.MainActivity is unresponsive: 9c7f6b4 eco.ray.app/eco.ray.app.base.ui.MainActivity is not responding. Waited 5000ms for FocusEvent(hasFocus=false)
+04-23 23:25:06.233   610   705 W InputDispatcher: Canceling events for 9c7f6b4 eco.ray.app/eco.ray.app.base.ui.MainActivity because it is unresponsive
+04-23 23:25:06.236   610   610 W AnrMainProcessD: type=1400 audit(0.0:5063): avc:  denied  { read } for  name="transactions" dev="binder" ino=1048587 scontext=u:r:system_server:s0 tcontext=u:object_r:binderfs_logs_transactions:s0 tclass=file permissive=0
+04-23 23:25:06.233   610   705 I WindowManager: ANR in Window{9c7f6b4 u0 eco.ray.app/eco.ray.app.base.ui.MainActivity}. Reason:Input dispatching timed out (9c7f6b4 eco.ray.app/eco.ray.app.base.ui.MainActivity is not responding. Waited 5000ms for FocusEvent(hasFocus=false)).
+04-23 23:25:06.235   610  7445 I ActivityManager: Crashing app skipping ANR: com.android.server.am.ProcessErrorStateRecord@b478cc9 Input dispatching timed out (9c7f6b4 eco.ray.app/eco.ray.app.base.ui.MainActivity is not responding. Waited 5000ms for FocusEvent(hasFocus=false)).
+04-23 23:25:06.242   610  7444 D ActivityManager: created ANR temporary file:/data/anr/temp_anr_8017287931331696290.txt
+04-23 23:25:06.242   610  7444 I ActivityManager: Collecting stacks for pid 7362 into temporary file temp_anr_8017287931331696290.txt
+04-23 23:25:06.242   610  7444 E system_server: Could not open /dev/binderfs/binder_logs/transactions. Likely a permissions issue. errno: 2
+04-23 23:25:06.242   610  7444 E android.os.Debug: Failed to get binder state info for pid: 7362 status: -2: No such file or directory
+04-23 23:25:06.243   610  7445 D ActivityManager: Completed ANR of eco.ray.app in 1ms, latency 0ms
+04-23 23:25:06.243   610  7444 I system_server: libdebuggerd_client: started dumping process 7362
+04-23 23:25:06.245  7362  7363 I eco.ray.app: Thread[2,tid=7363,WaitingInMainSignalCatcherLoop,Thread*=0xb4000075073dbf50,peer=0x20b8020,"Signal Catcher"]: reacting to signal 3
+04-23 23:25:06.245  7362  7363 I eco.ray.app: 
+04-23 23:25:06.245   236   236 I tombstoned: registered intercept for pid 7362 and type kDebuggerdJavaBacktrace
+04-23 23:25:06.360  7362  7385 E BLASTBufferQueue: epoll_wait error while waiting for buffer release. errno=4 message='Interrupted system call'
+04-23 23:25:06.393   236   236 I tombstoned: received crash request for pid 7362
+04-23 23:25:06.393   236   236 I tombstoned: found intercept fd 512 for pid 7362 and type kDebuggerdJavaBacktrace
+04-23 23:25:06.393   610  7444 I system_server: libdebuggerd_client: done dumping process 7362
+04-23 23:25:06.393   236   236 W tombstoned: skipping tombstone file creation due to intercept
+04-23 23:25:06.393  7362  7363 I eco.ray.app: Wrote stack traces to tombstoned
+04-23 23:25:06.436  1432  3293 I cn_CronetUrlRequestContext: destroyNativeStreamLocked org.chromium.net.impl.CronetBidirectionalStream@4586c51
+04-23 23:25:06.438  1432  3293 I cn_CronetUrlRequestContext: destroyNativeStreamLocked org.chromium.net.impl.CronetBidirectionalStream@24cfcb6
+04-23 23:25:06.441  1432  7173 I NotificationsModuleTask: Registering accounts to Chime Failed & Rescheduled for later. [CONTEXT service_id=358 ]
+04-23 23:25:06.442  1432  3261 I NotificationsModuleTask: Registering accounts to Chime Failed & Rescheduled for later. [CONTEXT service_id=358 ]
+04-23 23:25:06.444  1156  7169 I NetworkScheduler.Stats: (REDACTED) Task %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s
+04-23 23:25:06.449  1432  1432 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.notifications.registration.service.NotificationsRegistrationTaskBoundService.ACTION_TASK_READY dat=chimera-action:/... xflg=0x4 cmp=com.google.android.gms/.chimera.GmsInternalBoundBrokerService }
+04-23 23:25:06.456  1156  7169 I NetworkScheduler.Stats: (REDACTED) Task %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s
+04-23 23:25:06.715   610   746 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+04-23 23:25:06.715   610   746 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+04-23 23:25:06.715   610   746 D InetDiagMessage: Destroyed live tcp sockets for uids={10242} in 2ms
+04-23 23:25:06.716   610   746 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+04-23 23:25:06.716   610   746 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+04-23 23:25:06.716   610   746 D InetDiagMessage: Destroyed live tcp sockets for uids={20242} in 0ms
+04-23 23:25:07.371   610   631 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.app.Dialog$$ExternalSyntheticLambda2@d9cec79
+04-23 23:25:07.371   610   631 D CoreBackPreview: Window{388b641 u0 Application Error: eco.ray.app}: Setting back callback null
+04-23 23:25:07.372   610  1808 I ActivityManager: Killing 7362:eco.ray.app/u0a242 (adj 900): crash
+04-23 23:25:07.374  1432  1432 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.measurement.START xflg=0x4 pkg=com.google.android.gms }
+04-23 23:25:07.382   610  1808 I ImeTracker: system_server:a489c727: onRequestHide at ORIGIN_SERVER reason IME_REQUESTED_CHANGED_LISTENER fromUser false
+04-23 23:25:07.388   610   923 D WifiNl80211Manager: Scan result ready event
+04-23 23:25:07.388   610   923 D WifiNative: Scan result ready event
+04-23 23:25:07.389   610   866 W AS.PlaybackActivityMon: No piid assigned for invalid/internal port id 16
+04-23 23:25:07.399   610   793 D BackgroundInstallControlService: Package event received: 0
+04-23 23:25:07.400   610   633 I ImeTracker: system_server:a489c727: onCancelled at PHASE_SERVER_SHOULD_HIDE
+04-23 23:25:07.401   970   970 D RecentsView: onTaskRemoved: 100, not handling task stack changes
+04-23 23:25:07.401   970   970 D RecentsView: onTaskRemoved: 100, not handling task stack changes
+04-23 23:25:07.403  1156  1908 I WifiScanner: onFullResults
+04-23 23:25:07.410   483   483 I adbd    : Remote process closed the socket (on MSG_PEEK)
+04-23 23:25:07.411   610  1591 V ActivityManager: Got obituary of 7362:eco.ray.app
+04-23 23:25:07.412   610   633 W ActivityManager: setHasOverlayUi called on unknown pid: 7362
+04-23 23:25:07.416   409   409 I Zygote  : Process 7362 exited due to signal 9 (Killed)
+04-23 23:25:07.417   610   998 I ImeTracker: eco.ray.app:6a286128: onRequestHide at ORIGIN_SERVER reason HIDE_REMOVE_CLIENT fromUser false
+04-23 23:25:07.417   610   998 I ImeTracker: eco.ray.app:6a286128: onCancelled at PHASE_SERVER_SHOULD_HIDE
+04-23 23:25:07.420   610   740 W BestClock: java.time.DateTimeException: No network time available
+04-23 23:25:07.421   610   740 W BestClock: java.time.DateTimeException: No network time available
+04-23 23:25:07.421   610   740 W BestClock: java.time.DateTimeException: No network time available
+04-23 23:25:07.422   610   641 I libprocessgroup: Removed cgroup /sys/fs/cgroup/apps/uid_10242/pid_7362
+04-23 23:25:07.426   610   740 I HalDevMgr: bestIfaceCreationProposal is null, requestIface=STA, existingIface=[name=wlan0 type=STA]
+04-23 23:25:07.429   481   481 E BpTransactionCompletedListener: Failed to transact (-32)
+04-23 23:25:07.440   610  4104 D HWUI    : endAllActiveAnimators on 0xb4000074a7457160 (RippleDrawable) with handle 0xb4000076274fdf00
+04-23 23:25:07.450   610   633 V WindowManager: Unknown focus tokens, dropping reportFocusChanged
+04-23 23:25:07.451   547   605 I ResourceManagerMetrics: pushConcurrentUsageReport: Concurrent Codec Usage Report for the Process[pid(7362): uid(10242)] is Peak { AudioDec[ SW: 1 ] VideoDec[ HW: 1 ] } Peak Pixels: 1483776
+04-23 23:25:07.467   610   711 I ImeTracker: com.google.android.apps.nexuslauncher:d894ad2: onRequestHide at ORIGIN_SERVER reason HIDE_UNSPECIFIED_WINDOW fromUser false
+04-23 23:25:07.468   970   970 D InsetsController: hide(ime(), fromIme=false)
+04-23 23:25:07.468   970   970 I ImeTracker: com.google.android.apps.nexuslauncher:d894ad2: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+04-23 23:25:07.470  1279  1279 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():2043 
+04-23 23:25:07.471  1279  1279 I Module  : DeviceLockedStatusModuleProvider$Module.updateDeviceLockedStatus():100 repeatCheckTimes = 0, locked = false
+04-23 23:25:07.472  1279  1279 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1293 onStartInput(EditorInfo{EditorInfo{packageName=com.google.android.apps.nexuslauncher, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=0, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)
+04-23 23:25:07.472   610  1808 I ImeTracker: system_server:faae02bd: onRequestHide at ORIGIN_SERVER reason IME_REQUESTED_CHANGED_LISTENER fromUser false
+04-23 23:25:07.475  1279  1279 I Module  : DeviceLockedStatusModuleProvider$Module.updateDeviceLockedStatus():100 repeatCheckTimes = 1, locked = false
+04-23 23:25:07.475   610   633 I ImeTracker: system_server:faae02bd: onCancelled at PHASE_SERVER_SHOULD_HIDE
+04-23 23:25:07.476  1279  1279 I EmojiCompatManager: EmojiCompatManager.getEmojiCompatIfLoaded():343 EmojiCompat.init() was never called.
+04-23 23:25:07.476  1279  1279 I EmojiCompatManager: java.lang.IllegalStateException: EmojiCompat is not initialized. Please call EmojiCompat.init() first
+04-23 23:25:07.476  1279  1279 I EmojiCompatManager: 	at asx.p(PG:6)
+04-23 23:25:07.476  1279  1279 I EmojiCompatManager: 	at axb.b(PG:13)
+04-23 23:25:07.476  1279  1279 I EmojiCompatManager: 	at jnr.b(PG:2)
+04-23 23:25:07.476  1279  1279 I EmojiCompatManager: 	at jnr.c(PG:4)
+04-23 23:25:07.476  1279  1279 I EmojiCompatManager: 	at jnr.f(PG:3)
+04-23 23:25:07.476  1279  1279 I EmojiCompatManager: 	at jnx.c(PG:3)
+04-23 23:25:07.476  1279  1279 I EmojiCompatManager: 	at kif.cz(PG:47)
+04-23 23:25:07.476  1279  1279 I EmojiCompatManager: 	at lhl.run(PG:1025)
+04-23 23:25:07.476  1279  1279 I EmojiCompatManager: 	at jaf.execute(PG:12)
+04-23 23:25:07.476  1279  1279 I EmojiCompatManager: 	at nco.v(PG:13)
+04-23 23:25:07.476  1279  1279 I EmojiCompatManager: 	at lhn.m(PG:96)
+04-23 23:25:07.476  1279  1279 I EmojiCompatManager: 	at lhn.k(PG:25)
+04-23 23:25:07.476  1279  1279 I EmojiCompatManager: 	at kgn.onStartInput(PG:250)
+04-23 23:25:07.476  1279  1279 I EmojiCompatManager: 	at android.inputmethodservice.InputMethodService.doStartInput(InputMethodService.java:3521)
+04-23 23:25:07.476  1279  1279 I EmojiCompatManager: 	at android.inputmethodservice.InputMethodService$InputMethodImpl.startInput(InputMethodService.java:879)
+04-23 23:25:07.476  1279  1279 I EmojiCompatManager: 	at android.inputmethodservice.InputMethodService$InputMethodImpl.dispatchStartInput(InputMethodService.java:908)
+04-23 23:25:07.476  1279  1279 I EmojiCompatManager: 	at android.inputmethodservice.IInputMethodWrapper.executeMessage(IInputMethodWrapper.java:201)
+04-23 23:25:07.476  1279  1279 I EmojiCompatManager: 	at com.android.internal.os.HandlerCaller$MyHandler.handleMessage(HandlerCaller.java:44)
+04-23 23:25:07.476  1279  1279 I EmojiCompatManager: 	at android.os.Handler.dispatchMessage(Handler.java:110)
+04-23 23:25:07.476  1279  1279 I EmojiCompatManager: 	at android.os.Looper.loopOnce(Looper.java:248)
+04-23 23:25:07.476  1279  1279 I EmojiCompatManager: 	at android.os.Looper.loop(Looper.java:338)
+04-23 23:25:07.476  1279  1279 I EmojiCompatManager: 	at android.app.ActivityThread.main(ActivityThread.java:9067)
+04-23 23:25:07.476  1279  1279 I EmojiCompatManager: 	at java.lang.reflect.Method.invoke(Native Method)
+04-23 23:25:07.476  1279  1279 I EmojiCompatManager: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:593)
+04-23 23:25:07.476  1279  1279 I EmojiCompatManager: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:932)
+04-23 23:25:07.477   610  1808 W PackageConfigPersister: App-specific configuration not found for packageName: com.google.android.apps.nexuslauncher and userId: 0
+04-23 23:25:07.974   610   740 W BestClock: java.time.DateTimeException: No network time available
+04-23 23:25:07.974   610   740 W BestClock: java.time.DateTimeException: No network time available
+04-23 23:25:07.974   610   740 W BestClock: java.time.DateTimeException: No network time available
+04-23 23:25:07.974   610   740 W BestClock: java.time.DateTimeException: No network time available
+04-23 23:25:08.118   406  7398 W SocketClient: write error (Broken pipe)
+04-23 23:25:08.118   406  7398 W resolv  : GetAddrInfoHandler::run: Error writing DNS result to client uid 10242 pid 7362: Broken pipe
+04-23 23:25:09.125  1370  1565 I bdee    : (REDACTED) getHotwordActive::active query: %s, watch: %s, devices connected: %s
+04-23 23:25:10.393   610  1426 E TaskPersister: File error accessing recents directory (directory doesn't exist?).
+04-23 23:25:10.436   414  4050 D android.hardware.audio@7.1-impl.ranchu: threadLoop: entering standby, frames: 5506368
+04-23 23:25:10.437   414  4050 D android.hardware.audio@7.1-impl.ranchu: ~TinyalsaSink: stopping PCM stream
+04-23 23:25:10.437   414  4050 D android.hardware.audio@7.1-impl.ranchu: ~TinyalsaSink: joining consumeThread
+04-23 23:25:10.437   414  7447 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: File descriptor in bad state' (-1)
+04-23 23:25:10.437   414  7447 E android.hardware.audio@7.1-impl.ranchu: pcmWrite:260 failure: -1
+04-23 23:25:10.437   414  7447 D android.hardware.audio@7.1-impl.ranchu: consumeThread: exiting
+04-23 23:25:10.979   610   740 W BestClock: java.time.DateTimeException: No network time available
+04-23 23:25:10.981   610   740 W BestClock: java.time.DateTimeException: No network time available
+04-23 23:25:10.981   610   740 W BestClock: java.time.DateTimeException: No network time available
+04-23 23:25:10.982   610   740 W BestClock: java.time.DateTimeException: No network time available
+04-23 23:25:10.982   610   740 W BestClock: java.time.DateTimeException: No network time available
+04-23 23:25:11.159   962  1191 D SatelliteController: iisInCarrierRoamingNbIotNtn: satellite is disabled
+04-23 23:25:13.990   610   740 W BestClock: java.time.DateTimeException: No network time available
+04-23 23:25:13.990   610   740 W BestClock: java.time.DateTimeException: No network time available
+04-23 23:25:13.990   610   740 W BestClock: java.time.DateTimeException: No network time available
+04-23 23:25:13.991   610   740 W BestClock: java.time.DateTimeException: No network time available
+04-23 23:25:13.991   610   740 W BestClock: java.time.DateTimeException: No network time available
+04-23 23:25:16.997   610   740 W BestClock: java.time.DateTimeException: No network time available
+04-23 23:25:16.998   610   740 W BestClock: java.time.DateTimeException: No network time available
+04-23 23:25:16.998   610   740 W BestClock: java.time.DateTimeException: No network time available
+04-23 23:25:16.998   610   740 W BestClock: java.time.DateTimeException: No network time available
+04-23 23:25:16.998   610   740 W BestClock: java.time.DateTimeException: No network time available
+04-23 23:25:17.418   610   696 D ActivityManager: freezing 1432 com.google.android.gms
+04-23 23:25:20.004   610   740 W BestClock: java.time.DateTimeException: No network time available
+04-23 23:25:20.004   610   740 W BestClock: java.time.DateTimeException: No network time available
+04-23 23:25:20.005   610   740 W BestClock: java.time.DateTimeException: No network time available
+04-23 23:25:20.005   610   740 W BestClock: java.time.DateTimeException: No network time available
+04-23 23:25:20.005   610   740 W BestClock: java.time.DateTimeException: No network time available
+04-23 23:25:21.158   962  1191 D SatelliteController: iisInCarrierRoamingNbIotNtn: satellite is disabled
+04-23 23:25:23.013   610   740 W BestClock: java.time.DateTimeException: No network time available
+04-23 23:25:23.015   610   740 W BestClock: java.time.DateTimeException: No network time available
+04-23 23:25:23.015   610   740 W BestClock: java.time.DateTimeException: No network time available
+04-23 23:25:23.015   610   740 W BestClock: java.time.DateTimeException: No network time available
+04-23 23:25:23.015   610   740 W BestClock: java.time.DateTimeException: No network time available
+04-23 23:25:26.021   610   740 W BestClock: java.time.DateTimeException: No network time available
+04-23 23:25:26.021   610   740 W BestClock: java.time.DateTimeException: No network time available
+04-23 23:25:26.021   610   740 W BestClock: java.time.DateTimeException: No network time available
+04-23 23:25:26.021   610   740 W BestClock: java.time.DateTimeException: No network time available
+04-23 23:25:26.021   610   740 W BestClock: java.time.DateTimeException: No network time available
+04-23 23:25:29.027   610   740 W BestClock: java.time.DateTimeException: No network time available
+04-23 23:25:29.027   610   740 W BestClock: java.time.DateTimeException: No network time available
+04-23 23:25:29.027   610   740 W BestClock: java.time.DateTimeException: No network time available
+04-23 23:25:29.027   610   740 W BestClock: java.time.DateTimeException: No network time available
+04-23 23:25:29.027   610   740 W BestClock: java.time.DateTimeException: No network time available

@@ -164,29 +164,29 @@
 
     iget-object v2, p1, Lj/a/a/e/y0;->w:Landroid/widget/LinearLayout;
 
-    new-instance v4, Lj/a/a/a/g/e/a;
+    new-instance v3, Lj/a/a/a/g/e/a;
 
-    invoke-direct {v4, p0}, Lj/a/a/a/g/e/a;-><init>(Leco/ray/app/feature/garage/ui/MyGarageFragment;)V
+    invoke-direct {v3, p0}, Lj/a/a/a/g/e/a;-><init>(Leco/ray/app/feature/garage/ui/MyGarageFragment;)V
 
-    invoke-virtual {v2, v4}, Landroid/widget/LinearLayout;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+    invoke-virtual {v2, v3}, Landroid/widget/LinearLayout;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    iget-object v2, p1, Lj/a/a/e/y0;->x:Landroidx/recyclerview/widget/RecyclerView;
+    iget-object p1, p1, Lj/a/a/e/y0;->x:Landroidx/recyclerview/widget/RecyclerView;
 
-    const-string v4, "this"
+    const-string v2, "this"
 
-    invoke-static {v2, v4}, Lx/u/c/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v2}, Lx/u/c/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
-    invoke-virtual {v2, v1}, Landroidx/recyclerview/widget/RecyclerView;->setLayoutManager(Landroidx/recyclerview/widget/RecyclerView$m;)V
+    invoke-virtual {p1, v1}, Landroidx/recyclerview/widget/RecyclerView;->setLayoutManager(Landroidx/recyclerview/widget/RecyclerView$m;)V
 
-    invoke-virtual {v2, v0}, Landroidx/recyclerview/widget/RecyclerView;->setAdapter(Landroidx/recyclerview/widget/RecyclerView$e;)V
+    invoke-virtual {p1, v0}, Landroidx/recyclerview/widget/RecyclerView;->setAdapter(Landroidx/recyclerview/widget/RecyclerView$e;)V
 
     .line 4
     invoke-virtual {p0}, Leco/ray/app/feature/garage/ui/MyGarageFragment;->h()Lj/a/a/a/g/e/i;
 
-    move-result-object v0
+    move-result-object p1
 
     .line 5
-    iget-object v0, v0, Lj/a/a/a/g/e/i;->e:Landroidx/lifecycle/LiveData;
+    iget-object p1, p1, Lj/a/a/a/g/e/i;->e:Landroidx/lifecycle/LiveData;
 
     .line 6
     invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->getViewLifecycleOwner()Lu/r/x;
@@ -197,46 +197,20 @@
 
     invoke-direct {v2, v0}, Lj/a/a/a/g/e/h;-><init>(Lj/a/a/c/g/m/d;)V
 
-    invoke-virtual {v0, v1, v2}, Landroidx/lifecycle/LiveData;->f(Lu/r/x;Lu/r/h0;)V
-    
-    # Verberge den Loading-Overlay und den ProgressBar, wenn möglich
-    .line 7
-    instance-of v0, p1, Lj/a/a/e/z0;
-    if-eqz v0, :cond_0
-    
-    move-object v0, p1
-    check-cast v0, Lj/a/a/e/z0;
-    
-    # Verberge den Overlay (C=View mit schwarzem Hintergrund)
-    iget-object v1, v0, Lj/a/a/e/z0;->C:Landroid/view/View;
-    if-eqz v1, :cond_0
-    
-    const/16 v2, 0x8  # GONE
-    invoke-virtual {v1, v2}, Landroid/view/View;->setVisibility(I)V
-    
-    # Verberge den ProgressBar (D)
-    iget-object v1, v0, Lj/a/a/e/z0;->D:Landroid/widget/ProgressBar;
-    if-eqz v1, :cond_0
-    
-    invoke-virtual {v1, v2}, Landroid/widget/ProgressBar;->setVisibility(I)V
-    
-    const-string v0, "MockAuthHelper"
-    const-string v1, "Loading overlay and progress bar hidden"
-    invoke-static {v0, v1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
-    
-    :cond_0
+    invoke-virtual {p1, v1, v2}, Landroidx/lifecycle/LiveData;->f(Lu/r/x;Lu/r/h0;)V
+
     # Erzwinge die Sichtbarkeit des Connect-Buttons
-    .line 8
+    .line 7
     invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->getView()Landroid/view/View;
     move-result-object p1
     
-    if-eqz p1, :cond_1
+    if-eqz p1, :cond_0
     
     const v0, 0x7f09014b  # llConnectMoto ID
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
     move-result-object p1
     
-    if-eqz p1, :cond_1
+    if-eqz p1, :cond_0
     
     const/4 v0, 0x0
     invoke-virtual {p1, v0}, Landroid/view/View;->setVisibility(I)V
@@ -245,7 +219,7 @@
     const-string v1, "Connect my Ray button visibility forced to VISIBLE"
     invoke-static {v0, v1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
     
-    :cond_1
+    :cond_0
     return-void
 .end method
 
