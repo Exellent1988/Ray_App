@@ -1,0 +1,86 @@
+.class public final Lr/a/k2/m$a$a;
+.super Lx/s/j/a/c;
+.source ""
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lr/a/k2/m$a;->a(Ljava/lang/Object;Lx/s/d;)Ljava/lang/Object;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = null
+.end annotation
+
+.annotation runtime Lx/s/j/a/e;
+    c = "kotlinx.coroutines.flow.FlowKt__MergeKt$flatMapMerge$$inlined$map$1$2"
+    f = "Merge.kt"
+    l = {
+        0x86,
+        0x86
+    }
+    m = "emit"
+.end annotation
+
+
+# instance fields
+.field public synthetic d:Ljava/lang/Object;
+
+.field public e:I
+
+.field public f:Ljava/lang/Object;
+
+.field public g:Ljava/lang/Object;
+
+.field public h:Ljava/lang/Object;
+
+.field public i:Ljava/lang/Object;
+
+.field public j:Ljava/lang/Object;
+
+.field public k:Ljava/lang/Object;
+
+.field public l:Ljava/lang/Object;
+
+.field public m:Ljava/lang/Object;
+
+.field public final synthetic n:Lr/a/k2/m$a;
+
+
+# direct methods
+.method public constructor <init>(Lr/a/k2/m$a;Lx/s/d;)V
+    .locals 0
+
+    iput-object p1, p0, Lr/a/k2/m$a$a;->n:Lr/a/k2/m$a;
+
+    invoke-direct {p0, p2}, Lx/s/j/a/c;-><init>(Lx/s/d;)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final v(Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 1
+
+    iput-object p1, p0, Lr/a/k2/m$a$a;->d:Ljava/lang/Object;
+
+    iget p1, p0, Lr/a/k2/m$a$a;->e:I
+
+    const/high16 v0, -0x80000000
+
+    or-int/2addr p1, v0
+
+    iput p1, p0, Lr/a/k2/m$a$a;->e:I
+
+    iget-object p1, p0, Lr/a/k2/m$a$a;->n:Lr/a/k2/m$a;
+
+    const/4 v0, 0x0
+
+    invoke-virtual {p1, v0, p0}, Lr/a/k2/m$a;->a(Ljava/lang/Object;Lx/s/d;)Ljava/lang/Object;
+
+    move-result-object p1
+
+    return-object p1
+.end method

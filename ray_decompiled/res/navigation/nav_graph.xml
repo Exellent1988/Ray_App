@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/nav_graph" app:startDestination="@id/startFragment"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <action android:id="@id/goToStart" app:destination="@id/startFragment" />
+    <fragment android:label="@string/main" android:name="eco.ray.app.feature.start.StartFragment" android:id="@id/startFragment">
+        <action android:id="@id/navToHome" app:destination="@id/homeFragment" app:popUpTo="@id/nav_graph" />
+        <action android:id="@id/navToLogin" app:destination="@id/loginFragment" app:popUpTo="@id/nav_graph" />
+    </fragment>
+    <fragment android:label="@string/main" android:name="eco.ray.app.feature.login.ui.LoginFragment" android:id="@id/loginFragment">
+        <action android:id="@id/navigate_from_login_to_home" app:destination="@id/homeFragment" app:popUpTo="@id/nav_graph" app:popUpToInclusive="true" />
+        <action android:id="@id/nav_to_register" app:destination="@id/registerFragment" />
+        <action android:id="@id/nav_to_change_password" app:destination="@id/changePasswordFragment" />
+    </fragment>
+    <fragment android:label="@string/profile" android:name="eco.ray.app.feature.profile.ui.ProfileFragment" android:id="@id/profileFragment">
+        <action android:id="@id/navToSettings" app:destination="@id/settingsFragment" />
+        <action android:id="@id/navToMyGarage" app:destination="@id/myGarageFragment" />
+        <action android:id="@id/nav_to_manual" app:destination="@id/manualFragment" />
+    </fragment>
+    <fragment android:name="eco.ray.app.feature.register.ui.RegisterFragment" android:id="@id/registerFragment">
+        <action android:id="@id/navigate_from_register_to_home" app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment android:label="@string/main" android:name="eco.ray.app.feature.home.ui.HomeFragment" android:id="@id/homeFragment">
+        <action android:id="@id/navigate_from_home_to_profile" app:destination="@id/profileFragment" />
+        <action android:id="@id/navigate_from_home_to_statistics" app:destination="@id/statisticsFragment" />
+        <action android:id="@id/nav_to_battery" app:destination="@id/batteryFragment">
+            <argument android:name="bikeInfo" app:argType="eco.ray.app.common.bike.Bike" app:nullable="false" />
+        </action>
+        <action android:id="@id/nav_to_charging" app:destination="@id/chargingFragment">
+            <argument android:name="bikeInfo" app:argType="eco.ray.app.common.bike.Bike" app:nullable="false" />
+        </action>
+        <action android:id="@id/nav_to_find_bike_fragment" app:destination="@id/ray_motorcycle_connect_nav_graph" />
+        <action android:id="@id/nav_to_map_and_navigation" app:destination="@id/ray_motorcycle_map_nav_graph" />
+        <action android:id="@id/nav_to_history" app:destination="@id/historyFragment" />
+    </fragment>
+    <include app:graph="@navigation/ray_motorcycle_connect_nav_graph" />
+    <include app:graph="@navigation/ray_motorcycle_map_nav_graph" />
+    <fragment android:name="eco.ray.app.feature.statistics.ui.StatisticsFragment" android:id="@id/statisticsFragment" />
+    <fragment android:name="eco.ray.app.feature.garage.ui.MyGarageFragment" android:id="@id/myGarageFragment">
+        <action android:id="@id/nav_to_detail" app:destination="@id/motoDetailFragment">
+            <argument android:name="detail" app:argType="eco.ray.app.common.bike.UserBike" app:nullable="false" />
+        </action>
+    </fragment>
+    <fragment android:name="eco.ray.app.feature.history.ui.HistoryFragment" android:id="@id/historyFragment" />
+    <fragment android:name="eco.ray.app.feature.motodetail.ui.MotoDetailFragment" android:id="@id/motoDetailFragment">
+        <argument android:name="detail" app:argType="eco.ray.app.common.bike.UserBike" app:nullable="false" />
+    </fragment>
+    <fragment android:label="@string/change_password" android:name="eco.ray.app.feature.changePassword.ui.ChangePasswordFragment" android:id="@id/changePasswordFragment" />
+    <fragment android:label="@string/battery" android:name="eco.ray.app.feature.battery.ui.BatteryFragment" android:id="@id/batteryFragment">
+        <argument android:name="bikeInfo" app:argType="eco.ray.app.common.bike.Bike" app:nullable="false" />
+        <action android:id="@id/nav_to_charge_setting" app:destination="@id/chargeSettingFragment" />
+    </fragment>
+    <fragment android:label="@string/battery" android:name="eco.ray.app.feature.chargeSetting.ui.ChargeSettingFragment" android:id="@id/chargeSettingFragment">
+        <argument android:name="bikeInfo" app:argType="eco.ray.app.common.bike.Bike" app:nullable="false" />
+        <action android:id="@id/nav_to_charge_setting_choose_location" app:destination="@id/chargeSettingChooseLocationFragment" />
+    </fragment>
+    <fragment android:label="@string/battery" android:name="eco.ray.app.feature.chargeSetting.ui.ChargingFragment" android:id="@id/chargingFragment">
+        <argument android:name="bikeInfo" app:argType="eco.ray.app.common.bike.Bike" app:nullable="false" />
+        <action android:id="@id/nav_to_charge_setting" app:destination="@id/chargeSettingFragment" />
+    </fragment>
+    <fragment android:label="@string/battery" android:name="eco.ray.app.feature.chargeSetting.ui.ChargeSettingChooseLocationFragment" android:id="@id/chargeSettingChooseLocationFragment">
+        <action android:id="@id/nav_to_route_place_search" app:destination="@id/routePlaceSearch" />
+    </fragment>
+    <dialog android:label="@string/screen_label_route_place_search" android:name="eco.ray.app.motorcycle.view.route.search.RoutePlaceSearchFragment" android:id="@id/routePlaceSearch" />
+    <fragment android:name="eco.ray.app.feature.settings.ui.SettingsFragment" android:id="@id/settingsFragment">
+        <action android:id="@id/navToLogin" app:destination="@id/loginFragment" app:popUpTo="@id/nav_graph" app:popUpToInclusive="true" />
+        <action android:id="@id/navigate_from_settings_to_change_password" app:destination="@id/changePasswordFragment" />
+        <action android:id="@id/navigate_from_settings_to_configuration" app:destination="@id/configurationsFragment" />
+    </fragment>
+    <fragment android:name="eco.ray.app.feature.configuration.ui.ConfigurationsFragment" android:id="@id/configurationsFragment" />
+    <action android:id="@id/openDialog" app:destination="@id/genericDialog">
+        <argument android:name="data" app:argType="eco.ray.app.base.ui.dialogs.DialogData" />
+    </action>
+    <dialog android:label="MyDialog" android:name="eco.ray.app.base.ui.dialogs.GenericDialog" android:id="@id/genericDialog">
+        <argument android:name="data" app:argType="eco.ray.app.base.ui.dialogs.DialogData" />
+    </dialog>
+    <fragment android:name="eco.ray.app.feature.addmoto.ui.FindBikeFragment" android:id="@id/findBikeFragment">
+        <action android:id="@id/nav_to_progress_fragment" app:destination="@id/progressFragment" />
+    </fragment>
+    <fragment android:name="eco.ray.app.feature.addmoto.ui.ProgressFragment" android:id="@id/progressFragment">
+        <action android:id="@id/nav_to_code_fragment" app:destination="@id/codeFragment">
+            <argument android:name="code" app:argType="string" />
+        </action>
+    </fragment>
+    <fragment android:name="eco.ray.app.feature.addmoto.ui.CodeFragment" android:id="@id/codeFragment">
+        <argument android:name="code" app:argType="string" />
+        <action android:id="@id/nav_to_resume_fragment" app:destination="@id/resumeFragment">
+            <argument android:name="resume" app:argType="eco.ray.app.feature.addmoto.domain.ResumeInfoModel" />
+        </action>
+    </fragment>
+    <fragment android:name="eco.ray.app.feature.addmoto.ui.ResumeBikeFragment" android:id="@id/resumeFragment">
+        <argument android:name="resume" app:argType="eco.ray.app.feature.addmoto.domain.ResumeInfoModel" />
+        <action android:id="@id/nav_to_home_fragment" app:destination="@id/homeFragment" app:popUpTo="@id/homeFragment" app:popUpToInclusive="true" />
+    </fragment>
+    <fragment android:name="eco.ray.app.feature.manual.ui.ManualFragment" android:id="@id/manualFragment" />
+</navigation>

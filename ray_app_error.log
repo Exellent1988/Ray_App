@@ -1,0 +1,154 @@
+04-23 16:39:02.741   949   949 W DnsResolver: resNetworkResult:android.system.ErrnoException: resNetworkResult failed: ETIMEDOUT (Connection timed out)
+04-23 16:39:02.744   949   949 W DnsResolver: resNetworkResult:android.system.ErrnoException: resNetworkResult failed: ETIMEDOUT (Connection timed out)
+04-23 16:39:02.745   949   949 W DnsResolver: resNetworkResult:android.system.ErrnoException: resNetworkResult failed: ETIMEDOUT (Connection timed out)
+04-23 16:39:02.745   949   949 W DnsResolver: resNetworkResult:android.system.ErrnoException: resNetworkResult failed: ETIMEDOUT (Connection timed out)
+04-23 16:39:02.746   949 11748 D NetworkMonitor/100: PROBE_DNS www.google.com 10022ms FAIL in type ADDRCONFIG android.net.DnsResolver$DnsException: android.system.ErrnoException: resNetworkResult failed: ETIMEDOUT (Connection timed out)
+04-23 16:39:02.746   949 11749 D NetworkMonitor/100: PROBE_DNS connectivitycheck.gstatic.com 10022ms FAIL in type ADDRCONFIG android.net.DnsResolver$DnsException: android.system.ErrnoException: resNetworkResult failed: ETIMEDOUT (Connection timed out)
+04-23 16:39:05.733   949 11747 D NetworkMonitor/100: PROBE_FALLBACK http://play.googleapis.com/generate_204 Probe failed with exception java.net.UnknownHostException: Unable to resolve host "play.googleapis.com": No address associated with hostname
+04-23 16:39:09.307   605   836 E SystemServiceRegistry: android.os.ServiceManager$ServiceNotFoundException: No service published for: persistent_data_block
+04-23 16:39:09.683   605   695 D InstallDependencyHelper: No missing dependency for eco.ray.app
+04-23 16:39:09.879   605   689 D BackupManagerService: [UserID:0] restoreAtInstall pkg=eco.ray.app token=1e restoreSet=0
+04-23 16:39:09.884   605   689 I PackageManager: installation completed for package:eco.ray.app. Final code path: /data/app/~~I6k2mYZjg77Fpqlt-D8KGA==/eco.ray.app-tmPxmgvrInbCpE15fRqq3Q==
+04-23 16:39:09.887  1450  1470 D MediaGrants: Removed 0 media_grants for 0 user for [eco.ray.app]. Reason: Mode changed: android:read_external_storage
+04-23 16:39:09.906   985  1023 D SessionCommitReceiver: Removing unneeded PromiseIcon for package: eco.ray.app, install reason: 0, alreadyAddedPromiseIcon: false
+04-23 16:39:09.911   605   817 D ShortcutService: adding package: eco.ray.app userId=0
+04-23 16:39:09.924   983   983 D CarrierSvcBindHelper: onPackageAdded: eco.ray.app
+04-23 16:39:09.929   474  9892 D NativePermissionController: updatePackagesForUid, UidPackageState{uid: 10218, packageNames: [eco.ray.app]}
+04-23 16:39:09.939   983  1116 I SatelliteAppTracker: onPackageAdded : eco.ray.app
+04-23 16:39:09.943  1281  1281 I SafetyLabelChangedBroadcastReceiver: received broadcast packageName: eco.ray.app, current user: UserHandle{0}, packageChangeEvent: NEW_INSTALL, intent user: UserHandle{0}
+04-23 16:39:09.943   605   825 I SdkSandboxManager: No SDKs used. Skipping SDK data reconcilation for CallingInfo{mUid=10218, mPackageName='eco.ray.app, mAppProcessToken='null'}
+04-23 16:39:09.987   605   663 D LauncherAppsService: onPackageAdded: Skipping - package filtered for user=UserHandle{0}, packageName=eco.ray.app
+04-23 16:39:09.987   605   663 D LauncherAppsService: onPackageAdded: triggering onPackageAdded for user=UserHandle{0}, packageName=eco.ray.app
+04-23 16:39:09.989   605   663 D LauncherAppsService: onPackageAdded: triggering onPackageAdded for user=UserHandle{0}, packageName=eco.ray.app
+04-23 16:39:09.990   985  1023 D LauncherAppsCallbackImpl: onPackageAdded triggered for packageName=eco.ray.app, user=UserHandle{0}
+04-23 16:39:09.990   985  1023 D PackageUpdatedTask: Package updated: mOp=ADD packages=[eco.ray.app], user=UserHandle{0}
+04-23 16:39:09.990   605   663 D LauncherAppsService: onPackageAdded: triggering onPackageAdded for user=UserHandle{0}, packageName=eco.ray.app
+04-23 16:39:10.023   983  1116 I SatelliteAppTracker: onPackageModified : eco.ray.app
+04-23 16:39:10.027   605   817 D ShortcutService: changing package: eco.ray.app userId=0
+04-23 16:39:10.057   985  1615 W HWUI    : Failed to initialize 101010-2 format, error = EGL_SUCCESS
+04-23 16:39:10.065  1462  1462 I AiAiEcho: AppFetcherImplV2 updateApps package:[eco.ray.app], userId:[0], reason:[package is added.].
+04-23 16:39:10.068   985  1023 D AlphabeticIndexCompat: computeSectionName: cs: Ray sectionName: R
+04-23 16:39:10.069   985   985 D AlphabeticalAppsList: addAppsWithSections: adding sectionName: R with appInfoTitle: Ray
+04-23 16:39:10.070   985   985 D AlphabeticalAppsList: addAppsWithSections: adding sectionName: R with appInfoTitle: Ray
+04-23 16:39:10.116   983  1114 D ImsResolver: maybeAddedImsService, packageName: eco.ray.app
+04-23 16:39:10.116   983  1114 V ImsResolver: searchForImsServices: package=eco.ray.app, users=[UserHandle{0}]
+04-23 16:39:10.126   983  1114 V ImsResolver: searchForImsServices: package=eco.ray.app, users=[UserHandle{0}]
+04-23 16:39:10.140   983   983 W VvmPkgInstalledRcvr: carrierVvmPkgAdded: carrier vvm packages doesn't contain eco.ray.app
+04-23 16:39:10.347   983   983 D CarrierSvcBindHelper: onPackageModified: eco.ray.app
+04-23 16:39:10.358  1181 11793 I ProximityAuth: [RecentAppsMediator] Package added: (user=UserHandle{0}) eco.ray.app
+04-23 16:39:10.420   983  1114 D ImsResolver: maybeAddedImsService, packageName: eco.ray.app
+04-23 16:39:10.420   983  1114 V ImsResolver: searchForImsServices: package=eco.ray.app, users=[UserHandle{0}]
+04-23 16:39:10.421   983  1114 V ImsResolver: searchForImsServices: package=eco.ray.app, users=[UserHandle{0}]
+04-23 16:39:10.436   983   983 D SatelliteController: packageStateChanged: package:eco.ray.app DefaultSmsPackageName:com.google.android.apps.messaging
+04-23 16:39:11.039   985  1023 D PackageUpdatedTask: Package updated: mOp=UPDATE packages=[eco.ray.app], user=UserHandle{0}
+04-23 16:39:11.041  1462 11780 I AiAiEcho: AppIndexer Package:[eco.ray.app] UserProfile:[0] Enabled:[true].
+04-23 16:39:11.042  1462 11780 I AiAiEcho: AppFetcherImplV2 updateApps package:[eco.ray.app], userId:[0], reason:[package is updated.].
+04-23 16:39:11.050   985  1023 D AlphabeticIndexCompat: computeSectionName: cs: Ray sectionName: R
+04-23 16:39:11.051   985   985 D AlphabeticalAppsList: addAppsWithSections: adding sectionName: R with appInfoTitle: Ray
+04-23 16:39:11.051   985   985 D AlphabeticalAppsList: addAppsWithSections: adding sectionName: R with appInfoTitle: Ray
+04-23 16:39:12.696   605   874 I ActivityTaskManager: START u0 {flg=0x10000000 xflg=0x5 cmp=eco.ray.app/.base.ui.MainActivity} with LAUNCH_MULTIPLE from uid 2000 (BAL_ALLOW_PERMISSION) result code=0
+04-23 16:39:12.715   862   960 V WindowManagerShell: Transition requested (#103): android.os.BinderProxy@4ac00cc TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=53 effectiveUid=10218 displayId=0 isRunning=true baseIntent=Intent { flg=0x10000000 cmp=eco.ray.app/.base.ui.MainActivity } baseActivity=ComponentInfo{eco.ray.app/eco.ray.app.base.ui.MainActivity} topActivity=ComponentInfo{eco.ray.app/eco.ray.app.base.ui.MainActivity} origActivity=null realActivity=ComponentInfo{eco.ray.app/eco.ray.app.base.ui.MainActivity} numActivities=1 lastActiveTime=7627244 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{android.window.IWindowContainerToken$Stub$Proxy@f42af15} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=Rect(0, 0 - 0, 0) topActivityInfo=ActivityInfo{ffb222a eco.ray.app.base.ui.MainActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=false isVisible=false isVisibleRequested=false isTopActivityNoDisplay=false isSleeping=false locusId=null displayAreaFeatureId=1 isTopActivityTransparent=false isActivityStackTransparent=false lastNonFullscreenBounds=Rect(284, 660 - 796, 1740) capturedLink=null capturedLinkTimestamp=0 requestedVisibleTypes=-9 topActivityRequestOpenInBrowserEducationTimestamp=0 appCompatTaskInfo=AppCompatTaskInfo { topActivityInSizeCompat=false eligibleForLetterboxEducation= false isLetterboxEducationEnabled= true isLetterboxDoubleTapEnabled= false eligibleForUserAspectRatioButton= false topActivityBoundsLetterboxed= false isFromLetterboxDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=-1 topActivityLetterboxHeight=-1 topActivityAppBounds=Rect(0, 0 - 1080, 2337) isUserFullscreenOverrideEnabled=false isSystemFullscreenOverrideEnabled=false hasMinAspectRatioOverride=false topActivityLetterboxBounds=null cameraCompatTaskInfo=CameraCompatTaskInfo { freeformCameraCompatMode=inactive}} topActivityMainWindowFrame=null}, pipChange = null, remoteTransition = null, displayChange = null, flags = 0, debugId = 103 }
+04-23 16:39:12.780   949 11748 D NetworkMonitor/100: PROBE_HTTPS https://www.google.com/generate_204 Probe failed with exception java.net.UnknownHostException: Unable to resolve host "www.google.com": No address associated with hostname
+04-23 16:39:12.781   949 11749 D NetworkMonitor/100: PROBE_HTTP http://connectivitycheck.gstatic.com/generate_204 Probe failed with exception java.net.UnknownHostException: Unable to resolve host "connectivitycheck.gstatic.com": No address associated with hostname
+04-23 16:39:12.797   605   665 I ActivityManager: Start proc 11832:eco.ray.app/u0a218 for next-top-activity {eco.ray.app/eco.ray.app.base.ui.MainActivity}
+04-23 16:39:12.837 11832 11832 I eco.ray.app: Late-enabling -Xcheck:jni
+04-23 16:39:12.875 11832 11832 I eco.ray.app: Using CollectorTypeCMC GC.
+04-23 16:39:12.897   605   836 D CoreBackPreview: Window{f36f77c u0 Splash Screen eco.ray.app}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@bd82bd, mPriority=0, mIsAnimationCallback=false, mOverrideBehavior=0}
+04-23 16:39:12.916   605   655 V WindowManager: Sent Transition (#103) createdAt=04-23 16:39:12.678 via request=TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=53 effectiveUid=10218 displayId=0 isRunning=true baseIntent=Intent { flg=0x10000000 cmp=eco.ray.app/.base.ui.MainActivity } baseActivity=ComponentInfo{eco.ray.app/eco.ray.app.base.ui.MainActivity} topActivity=ComponentInfo{eco.ray.app/eco.ray.app.base.ui.MainActivity} origActivity=null realActivity=ComponentInfo{eco.ray.app/eco.ray.app.base.ui.MainActivity} numActivities=1 lastActiveTime=7627244 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{RemoteToken{f4d6380 Task{8e36d08 #53 type=standard A=10218:eco.ray.app}}} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=Rect(0, 0 - 0, 0) topActivityInfo=ActivityInfo{d448db9 eco.ray.app.base.ui.MainActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=false isVisible=false isVisibleRequested=false isTopActivityNoDisplay=false isSleeping=false locusId=null displayAreaFeatureId=1 isTopActivityTransparent=false isActivityStackTransparent=false lastNonFullscreenBounds=Rect(284, 660 - 796, 1740) capturedLink=null capturedLinkTimestamp=0 requestedVisibleTypes=-9 topActivityRequestOpenInBrowserEducationTimestamp=0 appCompatTaskInfo=AppCompatTaskInfo { topActivityInSizeCompat=false eligibleForLetterboxEducation= false isLetterboxEducationEnabled= true isLetterboxDoubleTapEnabled= false eligibleForUserAspectRatioButton= false topActivityBoundsLetterboxed= false isFromLetterboxDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=-1 topActivityLetterboxHeight=-1 topActivityAppBounds=Rect(0, 0 - 1080, 2337) isUserFullscreenOverrideEnabled=false isSystemFullscreenOverrideEnabled=false hasMinAspectRatioOverride=false topActivityLetterboxBounds=null cameraCompatTaskInfo=CameraCompatTaskInfo { freeformCameraCompatMode=inactive}} topActivityMainWindowFrame=null}, pipChange = null, remoteTransition = null, displayChange = null, flags = 0, debugId = 103 }
+04-23 16:39:12.916   605   655 V WindowManager:     startWCT=WindowContainerTransaction { changes= {} hops= [] errorCallbackToken=null taskFragmentOrganizer=null }
+04-23 16:39:12.918   605   655 V WindowManager:         {WCT{RemoteToken{f4d6380 Task{8e36d08 #53 type=standard A=10218:eco.ray.app}}} m=OPEN f=NONE leash=Surface(name=Task=53)/@0x9b470b2 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) epz=Point(1080, 2400) d=0 taskParent=-1},
+04-23 16:39:13.103 11832 11832 D nativeloader: Configuring clns-9 for other apk /data/app/~~I6k2mYZjg77Fpqlt-D8KGA==/eco.ray.app-tmPxmgvrInbCpE15fRqq3Q==/base.apk. target_sdk_version=30, uses_libraries=, library_path=/data/app/~~I6k2mYZjg77Fpqlt-D8KGA==/eco.ray.app-tmPxmgvrInbCpE15fRqq3Q==/lib/arm64:/data/app/~~I6k2mYZjg77Fpqlt-D8KGA==/eco.ray.app-tmPxmgvrInbCpE15fRqq3Q==/base.apk!/lib/arm64-v8a, permitted_path=/data:/mnt/expand:/data/user/0/eco.ray.app
+04-23 16:39:13.108 11832 11832 I eco.ray.app: AssetManager2(0xb400007a06ada0b8) locale list changing from [] to [en-US]
+04-23 16:39:13.111 11832 11832 V GraphicsEnvironment: eco.ray.app is not listed in per-application setting
+04-23 16:39:13.112 11832 11832 V GraphicsEnvironment: eco.ray.app is not listed in ANGLE allowlist or settings, returning default
+04-23 16:39:13.126 11832 11832 I eco.ray.app: AssetManager2(0xb400007a06ae20d8) locale list changing from [] to [en-US]
+04-23 16:39:13.177 11832 11832 I eco.ray.app: AssetManager2(0xb400007a06ad8df8) locale list changing from [] to [en-US]
+04-23 16:39:13.197 11832 11832 I eco.ray.app: AssetManager2(0xb400007a06ae07d8) locale list changing from [] to [en-US]
+04-23 16:39:13.223 11832 11832 I eco.ray.app: AssetManager2(0xb400007a06ae2718) locale list changing from [] to [en-US]
+04-23 16:39:13.224 11832 11832 I eco.ray.app: AssetManager2(0xb400007a06adbcd8) locale list changing from [] to [en-US]
+04-23 16:39:13.292 11832 11852 W eco.ray.app: ClassLoaderContext classpath size mismatch. expected=1, found=0 (DLC[];PCL[base.apk*3298461787]{PCL[/system/framework/org.apache.http.legacy.jar*4247870504]#PCL[/system/framework/com.android.media.remotedisplay.jar*487574312]#PCL[/system/framework/com.android.location.provider.jar*1570284764]#PCL[/system_ext/framework/androidx.window.extensions.jar*1030441313]#PCL[/system_ext/framework/androidx.window.sidecar.jar*3860983653]} | DLC[];PCL[])
+04-23 16:39:13.305 11832 11852 V DynamiteModule: Dynamite loader version >= 2, using loadModule2NoCrashUtils
+04-23 16:39:13.309 11832 11832 I eco.ray.app: hiddenapi: Accessing hidden method Landroid/view/View;->computeFitSystemWindows(Landroid/graphics/Rect;Landroid/graphics/Rect;)Z (runtime_flags=0, domain=platform, api=unsupported) from Lu/b/h/w0; (domain=app) using reflection: allowed
+04-23 16:39:13.309 11832 11832 I eco.ray.app: hiddenapi: Accessing hidden method Landroid/view/ViewGroup;->makeOptionalFitsSystemWindows()V (runtime_flags=0, domain=platform, api=unsupported) from Landroidx/appcompat/app/AppCompatDelegateImpl; (domain=app) using reflection: allowed
+04-23 16:39:13.338 11832 11854 W HWUI    : Failed to initialize 101010-2 format, error = EGL_SUCCESS
+04-23 16:39:13.366   605   836 D CoreBackPreview: Window{671b3f u0 eco.ray.app/eco.ray.app.base.ui.MainActivity}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@682955, mPriority=0, mIsAnimationCallback=false, mOverrideBehavior=0}
+04-23 16:39:13.390   605   874 I MediaFocusControl: requestAudioFocus() from uid/pid 10218/11832 AA=USAGE_MEDIA/CONTENT_TYPE_MOVIE clientId=android.media.AudioManager@3e54dee callingPack=eco.ray.app req=1 flags=0x0 sdk=30
+04-23 16:39:13.427 11832 11852 I eco.ray.app: AssetManager2(0xb400007a06adcf98) locale list changing from [] to [en-US]
+04-23 16:39:13.433 11832 11852 W eco.ray.app: ClassLoaderContext classpath element checksum mismatch. expected=3298461787, found=1956717140 (DLC[];PCL[base.apk*3298461787]{PCL[/system/framework/org.apache.http.legacy.jar*4247870504]#PCL[/system/framework/com.android.media.remotedisplay.jar*487574312]#PCL[/system/framework/com.android.location.provider.jar*1570284764]#PCL[/system_ext/framework/androidx.window.extensions.jar*1030441313]#PCL[/system_ext/framework/androidx.window.sidecar.jar*3860983653]} | DLC[];PCL[/data/app/~~I6k2mYZjg77Fpqlt-D8KGA==/eco.ray.app-tmPxmgvrInbCpE15fRqq3Q==/base.apk*1956717140])
+04-23 16:39:13.442 11832 11852 I eco.ray.app: AssetManager2(0xb400007a06adf1f8) locale list changing from [] to [en-US]
+04-23 16:39:13.443 11832 11852 I eco.ray.app: AssetManager2(0xb400007a06adad38) locale list changing from [] to [en-US]
+04-23 16:39:13.570   605   655 I ActivityTaskManager: Displayed eco.ray.app/.base.ui.MainActivity for user 0: +914ms
+04-23 16:39:13.599   605   739 I ImeTracker: eco.ray.app:49d697fc: onRequestHide at ORIGIN_SERVER reason HIDE_UNSPECIFIED_WINDOW fromUser false
+04-23 16:39:13.623 11832 11832 I ImeTracker: eco.ray.app:49d697fc: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+04-23 16:39:13.725 11832 11872 E eco.ray.app: No package ID 76 found for resource ID 0x760b000f.
+04-23 16:39:13.749  1382  1382 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1293 onStartInput(EditorInfo{EditorInfo{packageName=eco.ray.app, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=0, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)
+04-23 16:39:13.783  1382  1382 I EmojiCompatManager: java.lang.IllegalStateException: EmojiCompat is not initialized. Please call EmojiCompat.init() first
+04-23 16:39:13.795   605   840 W PackageConfigPersister: App-specific configuration not found for packageName: eco.ray.app and userId: 0
+04-23 16:39:13.862 11832 11872 I FA      :   adb shell setprop debug.firebase.analytics.app eco.ray.app
+04-23 16:39:13.881   605   697 E AppOps  : attributionTag  not declared in manifest of eco.ray.app
+04-23 16:39:13.979   605   836 D CoreBackPreview: Window{f36f77c u0 Splash Screen eco.ray.app EXITING}: Setting back callback null
+04-23 16:39:14.092   419 11871 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+04-23 16:39:14.199   419 11871 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+04-23 16:39:14.249  1436  1436 I AdvertisingIdClient: getting error as 17: API: ClientTelemetry.API is not available on this device. Connection failed with: ConnectionResult{statusCode=API_DISABLED, resolution=null, message=null}
+04-23 16:39:14.303   419 11871 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+04-23 16:39:14.407   419 11871 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+04-23 16:39:14.511   419 11871 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+04-23 16:39:14.579 11832 11836 I eco.ray.app: Compiler allocated 5111KB to compile void android.view.ViewRootImpl.performTraversals()
+04-23 16:39:14.615   419 11871 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+04-23 16:39:14.719   419 11871 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+04-23 16:39:14.824   419 11871 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+04-23 16:39:14.927   419 11871 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+04-23 16:39:15.032   419 11871 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+04-23 16:39:15.137   419 11871 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+04-23 16:39:15.240   419 11871 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+04-23 16:39:15.344   419 11871 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+04-23 16:39:15.447   419 11871 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+04-23 16:39:15.551   419 11871 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+04-23 16:39:15.655   419 11871 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+04-23 16:39:15.700   605  1521 E TaskPersister: File error accessing recents directory (directory doesn't exist?).
+04-23 16:39:15.759   419 11871 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+04-23 16:39:15.863   419 11871 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+04-23 16:39:15.967   419 11871 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+04-23 16:39:16.072   419 11871 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+04-23 16:39:16.176   419 11871 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+04-23 16:39:16.280   419 11871 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+04-23 16:39:16.383   419 11871 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+04-23 16:39:16.487   419 11871 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+04-23 16:39:16.592   419 11871 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+04-23 16:39:16.695   419 11871 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+04-23 16:39:16.799   419 11871 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+04-23 16:39:16.907   419 11871 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+04-23 16:39:17.011   419 11871 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+04-23 16:39:17.116   419 11871 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+04-23 16:39:17.228   419 11871 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+04-23 16:39:17.332   419 11871 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+04-23 16:39:17.435   419 11871 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+04-23 16:39:17.540   419 11871 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+04-23 16:39:17.644   419 11871 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+04-23 16:39:17.748   419 11871 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+04-23 16:39:17.852   419 11871 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+04-23 16:39:17.955   419 11871 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+04-23 16:39:18.002   605   932 I MediaFocusControl: abandonAudioFocus() from uid/pid 10218/11832 clientId=android.media.AudioManager@3e54dee callingPack=eco.ray.app
+04-23 16:39:18.026   605   932 I MediaFocusControl: abandonAudioFocus() from uid/pid 10218/11832 clientId=android.media.AudioManager@3e54dee callingPack=eco.ray.app
+04-23 16:39:18.055 11832 11832 I eco.ray.app: hiddenapi: Accessing hidden method Ljava/lang/invoke/MethodHandles$Lookup;-><init>(Ljava/lang/Class;I)V (runtime_flags=0, domain=core-platform, api=unsupported) from Lc0/x; (domain=app) using reflection: allowed
+04-23 16:39:18.059   419 11871 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+04-23 16:39:18.164   419 11871 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+04-23 16:39:18.267   419 11871 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+04-23 16:39:18.372   419 11871 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+04-23 16:39:18.477   419 11871 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+04-23 16:39:18.580   419 11871 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+04-23 16:39:18.684   419 11871 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+04-23 16:39:18.788   419 11871 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+04-23 16:39:18.892   419 11871 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+04-23 16:39:18.996   419 11871 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+04-23 16:39:19.099   419 11871 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+04-23 16:39:19.203   419 11871 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+04-23 16:39:19.307   419 11871 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+04-23 16:39:19.411   419 11871 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+04-23 16:39:19.516   419 11871 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+04-23 16:39:19.620   419 11871 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+04-23 16:39:19.724   419 11871 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+04-23 16:39:19.830   419 11871 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+04-23 16:39:19.932   419 11871 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+04-23 16:39:20.036   419 11871 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'cannot read/write stream data: I/O error' (-1)
+04-23 16:39:20.139   419 11871 W android.hardware.audio@7.1-impl.ranchu: pcmWrite:259 pcm_writei failed with 'ca

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:tag="layout/fragment_progress_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:bind="http://schemas.android.com/apk/res-auto">
+    <View android:layout_gravity="center" android:id="@id/progress_bar" android:background="@drawable/ic_count_down" android:layout_width="80.0dip" android:layout_height="80.0dip" />
+    <TextView android:textSize="40.0sp" android:textColor="@android:color/white" android:layout_gravity="center" android:tag="binding_1" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <include android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/toolbar_margin_top" layout="@layout/fragment_header_toolbar" />
+</FrameLayout>
