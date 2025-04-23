@@ -131,25 +131,19 @@
 
     new-instance p2, Lu/r/g0;
 
-    sget-object p3, Ljava/lang/Boolean;->FALSE:Ljava/lang/Boolean;
+    sget-object p3, Ljava/lang/Boolean;->TRUE:Ljava/lang/Boolean;
 
     invoke-direct {p2, p3}, Lu/r/g0;-><init>(Ljava/lang/Object;)V
 
     iput-object p2, p0, Lj/a/a/a/g/e/i;->f:Lu/r/g0;
 
-    new-instance p2, Lj/a/a/a/g/e/i$a;
-
-    invoke-direct {p2}, Lj/a/a/a/g/e/i$a;-><init>()V
-
-    invoke-static {p1, p2}, Lu/i/b/e;->G(Landroidx/lifecycle/LiveData;Lu/c/a/c/a;)Landroidx/lifecycle/LiveData;
-
-    move-result-object p1
-
-    const-string p2, "Transformations.map(this) { transform(it) }"
-
-    invoke-static {p1, p2}, Lx/u/c/j;->c(Ljava/lang/Object;Ljava/lang/String;)V
-
+    new-instance p1, Lu/r/g0;
+    invoke-direct {p1, p3}, Lu/r/g0;-><init>(Ljava/lang/Object;)V
     iput-object p1, p0, Lj/a/a/a/g/e/i;->g:Landroidx/lifecycle/LiveData;
+    
+    const-string p1, "MockAuthHelper"
+    const-string p2, "Modified MyGarageViewModel to show Connect My Ray button"
+    invoke-static {p1, p2}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
     invoke-interface {p4, p3}, Lj/a/a/c/f/a;->b(Ljava/lang/Object;)Ljava/lang/Object;
 

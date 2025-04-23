@@ -5,4 +5,4 @@ alwaysApply: true
 ---
 The Android Buildtools are here: /Users/axell/Library/Android/sdk/build-tools/
 The source folder is ray_decompiled
-cleanup after yourself. try to run the commands yourself
+cleanup after yourself. try to run the commands yourself and use the build_and_install.sh to build and install the app. if neccessasry use the start_emu script to emulate a android device
