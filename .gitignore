@@ -1,8 +1,28 @@
+# APK files
+*.apk
+*.idsig
+
+# Build files
+build/
+.gradle/
+local.properties
+
+# IDE files
+.idea/
+*.iml
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Large decompiled files
+ray_decompiled/ray_recompiled.apk
+ray_decompiled/ray_recompiled.apk.idsig
+
 ray_app_aligned.apk
 ray_app_debug.log
 ray_app_modified.apk
 ray_app_signed.apk
-ray_app_signed.apk.idsig
-update_ids.pl
 ray_decompiled/update_ids.pl
 ray_decompiled/build/apk/classes.dex
