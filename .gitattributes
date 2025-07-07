@@ -1,1 +1,4 @@
 *.apk filter=lfs diff=lfs merge=lfs -text
+**/*.apk filter=lfs diff=lfs merge=lfs -text
+*/*.apk filter=lfs diff=lfs merge=lfs -text
+ray_decompiled/ray_recompiled.apk filter=lfs diff=lfs merge=lfs -text
