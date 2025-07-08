@@ -1,5 +1,6 @@
 package com.rayz.vehicleconnect.bluetooth;
 
+import android.annotation.SuppressLint;
 import android.app.Service;
 import android.bluetooth.BluetoothAdapter;
 import android.bluetooth.BluetoothDevice;
@@ -14,7 +15,9 @@ import android.bluetooth.le.ScanCallback;
 import android.bluetooth.le.ScanResult;
 import android.content.Intent;
 import android.os.Binder;
+import android.os.Handler;
 import android.os.IBinder;
+import android.os.Looper;
 import android.util.Log;
 
 import com.rayz.vehicleconnect.model.Vehicle;
@@ -23,6 +26,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.UUID;
 
+@SuppressLint("MissingPermission")
 public class BluetoothService extends Service {
     private static final String TAG = "BluetoothService";
     

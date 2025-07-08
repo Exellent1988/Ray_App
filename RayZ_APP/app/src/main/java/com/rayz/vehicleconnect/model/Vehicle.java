@@ -1,7 +1,9 @@
 package com.rayz.vehicleconnect.model;
 
+import android.annotation.SuppressLint;
 import android.bluetooth.BluetoothDevice;
 
+@SuppressLint("MissingPermission")
 public class Vehicle {
     private String name;
     private String address;

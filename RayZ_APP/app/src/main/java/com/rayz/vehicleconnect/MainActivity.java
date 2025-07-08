@@ -12,49 +12,42 @@ import android.os.Bundle;
 import android.os.IBinder;
 import android.util.Log;
 import android.view.View;
-import android.widget.Button;
-import android.widget.LinearLayout;
-import android.widget.TextView;
 import android.widget.Toast;
 
+import androidx.activity.result.ActivityResultLauncher;
+import androidx.activity.result.contract.ActivityResultContracts;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
 import androidx.recyclerview.widget.LinearLayoutManager;
-import androidx.recyclerview.widget.RecyclerView;
 
 import com.rayz.vehicleconnect.bluetooth.BluetoothService;
+import com.rayz.vehicleconnect.databinding.ActivityMainBinding;
 import com.rayz.vehicleconnect.model.Vehicle;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
 
 public class MainActivity extends AppCompatActivity implements BluetoothService.BluetoothServiceListener {
 
     private static final String TAG = "MainActivity";
-    private static final int REQUEST_ENABLE_BT = 1;
     private static final int REQUEST_PERMISSIONS = 2;
 
-    // UI components
-    private TextView statusText;
-    private Button scanButton;
-    private Button disconnectButton;
-    private LinearLayout vehicleListCard;
-    private LinearLayout vehicleDataCard;
-    private RecyclerView vehicleRecyclerView;
-    private VehicleAdapter vehicleAdapter;
+    // ViewBinding
+    private ActivityMainBinding binding;
     
-    // Vehicle data TextViews
-    private TextView speedText;
-    private TextView batteryText;
-    private TextView temperatureText;
-    private TextView mileageText;
-    private TextView fuelText;
+    // Adapter
+    private VehicleAdapter vehicleAdapter;
 
     // Bluetooth service
     private BluetoothService bluetoothService;
     private boolean serviceBound = false;
+
+    // Activity result launchers
+    private ActivityResultLauncher<Intent> bluetoothEnableLauncher;
+    private ActivityResultLauncher<String[]> permissionLauncher;
 
     private final ServiceConnection serviceConnection = new ServiceConnection() {
         @Override
@@ -76,9 +69,10 @@ public class MainActivity extends AppCompatActivity implements BluetoothService.
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        binding = ActivityMainBinding.inflate(getLayoutInflater());
+        setContentView(binding.getRoot());
 
-        initializeViews();
+        initializeActivityResultLaunchers();
         setupRecyclerView();
         setupButtons();
         
@@ -87,37 +81,42 @@ public class MainActivity extends AppCompatActivity implements BluetoothService.
         bindService(intent, serviceConnection, Context.BIND_AUTO_CREATE);
     }
 
-    private void initializeViews() {
-        statusText = findViewById(R.id.statusText);
-        scanButton = findViewById(R.id.scanButton);
-        disconnectButton = findViewById(R.id.disconnectButton);
-        vehicleListCard = findViewById(R.id.vehicleListCard);
-        vehicleDataCard = findViewById(R.id.vehicleDataCard);
-        vehicleRecyclerView = findViewById(R.id.vehicleRecyclerView);
-        
-        speedText = findViewById(R.id.speedText);
-        batteryText = findViewById(R.id.batteryText);
-        temperatureText = findViewById(R.id.temperatureText);
-        mileageText = findViewById(R.id.mileageText);
-        fuelText = findViewById(R.id.fuelText);
+    private void initializeActivityResultLaunchers() {
+        bluetoothEnableLauncher = registerForActivityResult(
+            new ActivityResultContracts.StartActivityForResult(),
+            result -> {
+                if (result.getResultCode() == RESULT_OK) {
+                    if (checkPermissions()) {
+                        startScan();
+                    }
+                } else {
+                    Toast.makeText(this, "Bluetooth is required for this app", Toast.LENGTH_SHORT).show();
+                }
+            }
+        );
+
+        permissionLauncher = registerForActivityResult(
+            new ActivityResultContracts.RequestMultiplePermissions(),
+            this::handlePermissionResults
+        );
     }
 
     private void setupRecyclerView() {
         vehicleAdapter = new VehicleAdapter();
-        vehicleRecyclerView.setLayoutManager(new LinearLayoutManager(this));
-        vehicleRecyclerView.setAdapter(vehicleAdapter);
+        binding.vehicleRecyclerView.setLayoutManager(new LinearLayoutManager(this));
+        binding.vehicleRecyclerView.setAdapter(vehicleAdapter);
         
         vehicleAdapter.setOnVehicleClickListener(this::connectToVehicle);
     }
 
     private void setupButtons() {
-        scanButton.setOnClickListener(v -> {
+        binding.scanButton.setOnClickListener(v -> {
             if (checkPermissions()) {
                 startScan();
             }
         });
 
-        disconnectButton.setOnClickListener(v -> {
+        binding.disconnectButton.setOnClickListener(v -> {
             if (serviceBound) {
                 bluetoothService.disconnect();
             }
@@ -127,8 +126,9 @@ public class MainActivity extends AppCompatActivity implements BluetoothService.
     private boolean checkPermissions() {
         List<String> permissionsNeeded = new ArrayList<>();
 
-        // Check Bluetooth permissions
+        // Check Bluetooth permissions based on Android version
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.S) {
+            // Android 12+ permissions
             if (ContextCompat.checkSelfPermission(this, Manifest.permission.BLUETOOTH_SCAN) != PackageManager.PERMISSION_GRANTED) {
                 permissionsNeeded.add(Manifest.permission.BLUETOOTH_SCAN);
             }
@@ -136,6 +136,7 @@ public class MainActivity extends AppCompatActivity implements BluetoothService.
                 permissionsNeeded.add(Manifest.permission.BLUETOOTH_CONNECT);
             }
         } else {
+            // Android 11 and below permissions
             if (ContextCompat.checkSelfPermission(this, Manifest.permission.BLUETOOTH) != PackageManager.PERMISSION_GRANTED) {
                 permissionsNeeded.add(Manifest.permission.BLUETOOTH);
             }
@@ -144,17 +145,60 @@ public class MainActivity extends AppCompatActivity implements BluetoothService.
             }
         }
 
-        // Check location permission (required for BLE scanning)
-        if (ContextCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
-            permissionsNeeded.add(Manifest.permission.ACCESS_FINE_LOCATION);
+        // Location permission is still needed for BLE scanning even on Android 12+
+        // unless we use neverForLocation flag and don't need location for scanning
+        if (Build.VERSION.SDK_INT < Build.VERSION_CODES.S) {
+            if (ContextCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
+                permissionsNeeded.add(Manifest.permission.ACCESS_FINE_LOCATION);
+            }
         }
 
         if (!permissionsNeeded.isEmpty()) {
-            ActivityCompat.requestPermissions(this, permissionsNeeded.toArray(new String[0]), REQUEST_PERMISSIONS);
+            permissionLauncher.launch(permissionsNeeded.toArray(new String[0]));
             return false;
         }
 
         return true;
+    }
+
+    private void handlePermissionResults(Map<String, Boolean> results) {
+        boolean allGranted = true;
+        List<String> deniedPermissions = new ArrayList<>();
+        
+        for (Map.Entry<String, Boolean> entry : results.entrySet()) {
+            if (!entry.getValue()) {
+                allGranted = false;
+                deniedPermissions.add(entry.getKey());
+            }
+        }
+
+        if (allGranted) {
+            startScan();
+        } else {
+            StringBuilder message = new StringBuilder("The following permissions are required:\n");
+            for (String permission : deniedPermissions) {
+                String permissionName = getPermissionName(permission);
+                message.append("• ").append(permissionName).append("\n");
+            }
+            
+            Toast.makeText(this, message.toString(), Toast.LENGTH_LONG).show();
+            updateStatus("Permissions required", R.color.status_error);
+        }
+    }
+
+    private String getPermissionName(String permission) {
+        switch (permission) {
+            case Manifest.permission.BLUETOOTH:
+            case Manifest.permission.BLUETOOTH_CONNECT:
+                return "Bluetooth Connection";
+            case Manifest.permission.BLUETOOTH_ADMIN:
+            case Manifest.permission.BLUETOOTH_SCAN:
+                return "Bluetooth Scanning";
+            case Manifest.permission.ACCESS_FINE_LOCATION:
+                return "Location Access";
+            default:
+                return permission;
+        }
     }
 
     private void startScan() {
@@ -165,7 +209,7 @@ public class MainActivity extends AppCompatActivity implements BluetoothService.
 
         if (!bluetoothService.isBluetoothEnabled()) {
             Intent enableBtIntent = new Intent(BluetoothAdapter.ACTION_REQUEST_ENABLE);
-            startActivityForResult(enableBtIntent, REQUEST_ENABLE_BT);
+            bluetoothEnableLauncher.launch(enableBtIntent);
             return;
         }
 
@@ -182,18 +226,18 @@ public class MainActivity extends AppCompatActivity implements BluetoothService.
 
     private void updateStatus(String message, int colorRes) {
         runOnUiThread(() -> {
-            statusText.setText(message);
-            statusText.setBackgroundColor(ContextCompat.getColor(this, colorRes));
+            binding.statusText.setText(message);
+            binding.statusText.setBackgroundColor(ContextCompat.getColor(this, colorRes));
         });
     }
 
     private void updateVehicleData(Vehicle vehicle) {
         runOnUiThread(() -> {
-            speedText.setText(getString(R.string.data_speed, String.valueOf(vehicle.getSpeed())));
-            batteryText.setText(getString(R.string.data_battery, String.valueOf(vehicle.getBattery())));
-            temperatureText.setText(getString(R.string.data_temperature, String.valueOf(vehicle.getTemperature())));
-            mileageText.setText(getString(R.string.data_mileage, String.valueOf(vehicle.getMileage())));
-            fuelText.setText(getString(R.string.data_fuel, String.valueOf(vehicle.getFuel())));
+            binding.speedText.setText(getString(R.string.data_speed, String.valueOf(vehicle.getSpeed())));
+            binding.batteryText.setText(getString(R.string.data_battery, String.valueOf(vehicle.getBattery())));
+            binding.temperatureText.setText(getString(R.string.data_temperature, String.valueOf(vehicle.getTemperature())));
+            binding.mileageText.setText(getString(R.string.data_mileage, String.valueOf(vehicle.getMileage())));
+            binding.fuelText.setText(getString(R.string.data_fuel, String.valueOf(vehicle.getFuel())));
         });
     }
 
@@ -202,28 +246,29 @@ public class MainActivity extends AppCompatActivity implements BluetoothService.
     public void onVehicleFound(Vehicle vehicle) {
         runOnUiThread(() -> {
             vehicleAdapter.addVehicle(vehicle);
-            vehicleListCard.setVisibility(View.VISIBLE);
+            binding.vehicleListCard.setVisibility(View.VISIBLE);
         });
     }
 
     @Override
     public void onVehicleConnected(Vehicle vehicle) {
         runOnUiThread(() -> {
-            updateStatus(getString(R.string.status_connected, vehicle.getName()), R.color.status_connected);
-            vehicleListCard.setVisibility(View.GONE);
-            vehicleDataCard.setVisibility(View.VISIBLE);
-            disconnectButton.setVisibility(View.VISIBLE);
-            scanButton.setText(getString(R.string.button_scan));
+            updateStatus("Connected to " + vehicle.getName(), R.color.status_connected);
+            binding.vehicleListCard.setVisibility(View.GONE);
+            binding.vehicleDataCard.setVisibility(View.VISIBLE);
+            binding.disconnectButton.setVisibility(View.VISIBLE);
+            binding.scanButton.setVisibility(View.GONE);
         });
     }
 
     @Override
     public void onVehicleDisconnected() {
         runOnUiThread(() -> {
-            updateStatus(getString(R.string.status_disconnected), R.color.status_disconnected);
-            vehicleDataCard.setVisibility(View.GONE);
-            disconnectButton.setVisibility(View.GONE);
-            scanButton.setText(getString(R.string.button_scan));
+            updateStatus("Disconnected", R.color.status_disconnected);
+            binding.vehicleDataCard.setVisibility(View.GONE);
+            binding.vehicleListCard.setVisibility(View.GONE);
+            binding.disconnectButton.setVisibility(View.GONE);
+            binding.scanButton.setVisibility(View.VISIBLE);
         });
     }
 
@@ -235,24 +280,26 @@ public class MainActivity extends AppCompatActivity implements BluetoothService.
     @Override
     public void onScanStarted() {
         runOnUiThread(() -> {
-            updateStatus(getString(R.string.status_scanning), R.color.status_scanning);
-            scanButton.setText("Stop Scan");
+            binding.scanButton.setEnabled(false);
+            binding.scanButton.setText("Scanning...");
+            updateStatus("Scanning for vehicles...", R.color.status_scanning);
         });
     }
 
     @Override
     public void onScanStopped() {
         runOnUiThread(() -> {
-            updateStatus(getString(R.string.status_disconnected), R.color.status_disconnected);
-            scanButton.setText(getString(R.string.button_scan));
+            binding.scanButton.setEnabled(true);
+            binding.scanButton.setText("Scan for Vehicles");
+            updateStatus("Scan stopped", R.color.status_ready);
         });
     }
 
     @Override
     public void onError(String error) {
         runOnUiThread(() -> {
-            Toast.makeText(this, error, Toast.LENGTH_LONG).show();
-            updateStatus(error, R.color.error);
+            Toast.makeText(this, "Error: " + error, Toast.LENGTH_SHORT).show();
+            updateStatus("Error: " + error, R.color.status_error);
         });
     }
 
@@ -261,31 +308,18 @@ public class MainActivity extends AppCompatActivity implements BluetoothService.
         super.onRequestPermissionsResult(requestCode, permissions, grantResults);
         
         if (requestCode == REQUEST_PERMISSIONS) {
-            boolean allPermissionsGranted = true;
+            boolean allGranted = true;
             for (int result : grantResults) {
                 if (result != PackageManager.PERMISSION_GRANTED) {
-                    allPermissionsGranted = false;
+                    allGranted = false;
                     break;
                 }
             }
             
-            if (allPermissionsGranted) {
+            if (allGranted) {
                 startScan();
             } else {
-                Toast.makeText(this, getString(R.string.bluetooth_permission_required), Toast.LENGTH_LONG).show();
-            }
-        }
-    }
-
-    @Override
-    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
-        super.onActivityResult(requestCode, resultCode, data);
-        
-        if (requestCode == REQUEST_ENABLE_BT) {
-            if (resultCode == RESULT_OK) {
-                startScan();
-            } else {
-                Toast.makeText(this, getString(R.string.bluetooth_enable), Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "Permissions required to scan for vehicles", Toast.LENGTH_SHORT).show();
             }
         }
     }
@@ -296,6 +330,10 @@ public class MainActivity extends AppCompatActivity implements BluetoothService.
         if (serviceBound) {
             unbindService(serviceConnection);
             serviceBound = false;
+        }
+        
+        if (binding != null) {
+            binding = null;
         }
     }
 } 
