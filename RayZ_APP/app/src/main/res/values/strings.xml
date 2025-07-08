@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">RayZ Vehicle Connect</string>
+    
+    <!-- Main Activity -->
+    <string name="title_main">Vehicle Connection</string>
+    <string name="button_scan">Scan for Vehicles</string>
+    <string name="button_connect">Connect</string>
+    <string name="button_disconnect">Disconnect</string>
+    <string name="status_scanning">Scanning for vehicles...</string>
+    <string name="status_connected">Connected to %1$s</string>
+    <string name="status_disconnected">Disconnected</string>
+    <string name="status_connecting">Connecting...</string>
+    
+    <!-- Vehicle Data -->
+    <string name="title_vehicle_data">Vehicle Data</string>
+    <string name="data_speed">Speed: %1$s km/h</string>
+    <string name="data_battery">Battery: %1$s%%</string>
+    <string name="data_temperature">Temperature: %1$s°C</string>
+    <string name="data_mileage">Mileage: %1$s km</string>
+    <string name="data_fuel">Fuel: %1$s%%</string>
+    
+    <!-- Bluetooth -->
+    <string name="bluetooth_disabled">Bluetooth is disabled</string>
+    <string name="bluetooth_enable">Enable Bluetooth</string>
+    <string name="bluetooth_permission_required">Bluetooth permissions are required</string>
+    <string name="location_permission_required">Location permission is required for Bluetooth scanning</string>
+    <string name="no_vehicles_found">No vehicles found</string>
+    <string name="scan_failed">Scan failed</string>
+    <string name="connection_failed">Connection failed</string>
+    <string name="connection_lost">Connection lost</string>
+    
+    <!-- General -->
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="retry">Retry</string>
+    <string name="settings">Settings</string>
+</resources> 

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <androidx.appcompat.widget.AppCompatTextView android:gravity="center" android:id="@id/tvHeading" android:padding="@dimen/_16sdp" android:text="@string/select_the_type_of_navigation" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/Text.Heading.ThemeBlack" />
-    <View android:id="@id/line1" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toBottomOf="@id/tvHeading" style="@style/HorizontalLine.LightGrey" />
-    <androidx.appcompat.widget.AppCompatTextView android:gravity="center" android:id="@id/tvSimulation" android:background="?selectableItemBackground" android:padding="@dimen/_8sdp" android:layout_width="@dimen/_0dp" android:text="@string/simulation" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/line1" style="@style/Text.Paragraph.ThemeBlue" />
-    <View android:id="@id/line2" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toBottomOf="@id/tvSimulation" style="@style/HorizontalLine.LightGrey" />
-    <androidx.appcompat.widget.AppCompatTextView android:gravity="center" android:id="@id/tvRealNavigation" android:background="?selectableItemBackground" android:padding="@dimen/_8sdp" android:layout_width="@dimen/_0dp" android:text="@string/real_navigation" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/line2" style="@style/Text.Paragraph.ThemeBlue" />
-</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout android:tag="layout/header_0" style="@style/Header.Container"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <androidx.appcompat.widget.AppCompatImageButton android:id="@id/btnBack" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/Header.BackButton" />
-    <androidx.appcompat.widget.AppCompatTextView android:gravity="center" android:id="@id/tvTitle" android:tag="binding_1" android:padding="@dimen/_8sdp" android:layout_width="@dimen/_0dp" android:layout_marginEnd="@dimen/_16sdp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/btnBack" app:layout_constraintTop_toTopOf="parent" style="@style/Header.Title" />
-</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:tag="layout/fragment_find_bike_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:tag="binding_1" android:background="@drawable/home_outlined_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/button_horizontal_margin" android:layout_marginEnd="@dimen/button_horizontal_margin" style="@style/HomeButtonContainer">
-        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/add_moto_flow_search_my_motorcycle" app:drawableLeftCompat="@drawable/ic_bluetooth" style="@style/StartDrawableButton" />
-    </LinearLayout>
-    <include android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/toolbar_margin_top" layout="@layout/fragment_header_toolbar" />
-</FrameLayout>
