@@ -22,7 +22,7 @@
 
 # Keep Bluetooth classes
 -keep class android.bluetooth.** { *; }
--keep class com.rayz.vehicleconnect.model.** { *; }
+-keep class com.rayz.vehicleconnect.ble.** { *; }
 
-# Keep service classes
--keep class com.rayz.vehicleconnect.bluetooth.BluetoothService { *; } 
+# Keep service classes (Foreground-Service)
+-keep class com.rayz.vehicleconnect.bluetooth.RayBluetoothService { *; } 
