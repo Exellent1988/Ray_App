@@ -2,24 +2,28 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
-    <!-- Bluetooth permissions for Android 11 and below -->
+    <!-- Bluetooth Berechtigungen Android 11 und aelter -->
     <uses-permission android:name="android.permission.BLUETOOTH" android:maxSdkVersion="30" />
     <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" android:maxSdkVersion="30" />
-    
-    <!-- Location permissions (required for BLE scanning) -->
-    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-    
-    <!-- Bluetooth permissions for Android 12+ -->
-    <uses-permission android:name="android.permission.BLUETOOTH_SCAN" android:usesPermissionFlags="neverForLocation" />
+
+    <!-- Standort fuer BLE-Scan in alten APIs -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"
+        android:maxSdkVersion="30" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"
+        android:maxSdkVersion="30" />
+
+    <!-- Android 12+ BLE -->
+    <uses-permission android:name="android.permission.BLUETOOTH_SCAN"
+        android:usesPermissionFlags="neverForLocation" />
     <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
     <uses-permission android:name="android.permission.BLUETOOTH_ADVERTISE" />
-    
-    <!-- Network permissions for potential future features -->
-    <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-    
-    <!-- Hardware features -->
+
+    <!-- Foreground Service fuer dauerhaftes Advertising -->
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_CONNECTED_DEVICE" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+
+    <!-- Hardware-Voraussetzungen -->
     <uses-feature
         android:name="android.hardware.bluetooth"
         android:required="true" />
@@ -35,7 +39,7 @@
         android:label="@string/app_name"
         android:theme="@style/Theme.RayZ"
         tools:targetApi="31">
-        
+
         <activity
             android:name=".MainActivity"
             android:exported="true"
@@ -45,13 +49,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        
-        <!-- Bluetooth service for vehicle communication -->
+
+        <!-- Foreground-Service haelt den GATT-Server und das BLE-Advertising aktiv -->
         <service
-            android:name=".bluetooth.BluetoothService"
+            android:name=".bluetooth.RayBluetoothService"
             android:enabled="true"
-            android:exported="false" />
-            
+            android:exported="false"
+            android:foregroundServiceType="connectedDevice" />
+
     </application>
 
-</manifest> 
+</manifest>
